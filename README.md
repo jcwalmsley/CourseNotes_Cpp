@@ -1,3 +1,3 @@
-# Project_90328_01
+# My C++ course notes
 
-This is my initial project for writing a text document
+This begins my course notes project
