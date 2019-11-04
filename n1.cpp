@@ -15,7 +15,7 @@ The wrappers are either “...” double quotation marks or <...> double angle b
 
 Double quotation marks “...” tells the compiler to look for the specified library first in the current directory, if not found there, then look in the standard libraries (std.)
 
-Double angle brackets  <...> tells the compiler to look for the specified library where all standard libraries are stored.
+Double angle brackets  <...> tells the compiler to look in the specified directives in the standard libraries.
 
 Examples:
 
