@@ -44,14 +44,13 @@ Double angle brackets  <...> tells the compiler to look for the preprocessing di
 
 Examples:
 
-	#include “iostream”
-#include // use preprocessing directives of the library indicated by the keyword that follows.
-
-#include “iostream” // search for the preprocessing directive file in the current directory first and if it’s not found there, search for it in the standard library
+	#include “main.hpp” - use the preprocessing directive contained in the local directory if it exists and if not use the one in the standard library
 
 or
 
-#include <iostream> // search for this preprocessing directive in the standard library
+    #include <iostream>  - use the preprocessing directive in the standard library
+
+
 Section two is the main part of the program:
 Specify the data type returned by the program.
 
@@ -151,7 +150,7 @@ Sending output to the console:
 String output:
 	#include <iostream>
 
-############## revise next !!!!!!!!!!!!!!!    
+############## revise next !!!!!!!!!!!!!!!
 using namespace std; // note: using the call to namespace here
 int main()
 {
