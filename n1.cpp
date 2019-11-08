@@ -28,12 +28,18 @@ or
 #include <iostream> // search the standard libraries for the preprocessing directive found in the iostream library
 */
 // end of page one
-//--------
+//--------############################----------------
 
 /*
-C++ programs have at least two sections.
+
+C++ programs have at two sections.
+
+
+####
 Section one is the preprocessing directive.
+
 A (# hash symbol) is used to indicate the start of a preprocessing directive.
+
 The # symbol is followed by a keyword wrapped in either <..> or “..” which tells the compiler where to look for the preprocessing directives.
 
 The wrappers are either “...” double quotation marks or <...> double angle brackets
@@ -51,18 +57,23 @@ or
     #include <iostream>  - use the preprocessing directive in the standard library
 
 
-Section two is the main part of the program:
-Specify the data type returned by the program.
 
-	Example:
-#include “iostream”
-int main()  // this line specifies the data type of the output of the program
+####
+Section two is the main part of the program:
+
+    Begin the main section with a statement specifying what data type the program returns.
+
+Example:
+    #include “iostream”
+    int main()  // this line specifies the data type of the output of the program
 {
 	...some code…;
 	...some code…;
-return 0; //  note: the specified data type on line 2 above must match data type of the output defined here on the last line of code excluding the closing curly brace
+    return 0; //  note: the specified data type on line 2 above must match data type of the output defined here on the last line of code excluding the closing curly brace
 }
+
 NOTE: the return value 0, an integer, matches the “int main() data type int statement above it. If the data types of these two statements don’t match, the compiler returns an error statement indicating mismatching data types.
+
 The declaration of the data type is followed by opening and closing curly braces, which indicate the actual start and end of the program. The actual program lies between these two curly braces.
 
 Example 1:
@@ -91,7 +102,7 @@ int main()
 	…..some code….;
 	return 0;
 }
-
+------------------------------------------------------------------------
 Writing output to the console:
 
 	Example 1:
