@@ -13,7 +13,9 @@ C++ programs have at two sections.
 
 
 ####
-SECTION ONE is the preprocessing directive.
+CHAPTER ONE GETTING STARTED
+
+The first parat of the program is the preprocessing directive.
 
 A (# hash symbol) is used to indicate the start of a preprocessing directive.
 
@@ -36,7 +38,7 @@ or
 
 
 ####
-SECTION TWO is the main part of the program:
+The second part of code is the main program:
 
     Begin the main section with a statement specifying what data type the program returns.
 
