@@ -15,7 +15,7 @@ C++ programs have at two sections.
 ####
 CHAPTER ONE GETTING STARTED
 
-The first parat of the program is the preprocessing directive.
+The preprocessing directive.
 
 A (# hash symbol) is used to indicate the start of a preprocessing directive.
 
@@ -38,72 +38,42 @@ or
 
 
 ####
-The second part of code is the main program:
+The main program:
 
     Begin the main section with a statement specifying what data type the program returns.
 
-Example:
-    #include “iostream”
-    int main()  // here (int) specifies output data type
-{
+Example 1:*/
+
+#include “iostream”
+int main() { // here (int) specifies output data type
 	...some code…;
 	...some code…;
-    return 0; //  note: the specified data type just before the opening curly brace matchs the data type of the return output defined on this line of code (0, being and integer), otherwise the program will not compile and will return an error specifying non matching data types
+    return 0; /*  note: the specified data type just before the opening curly brace matchs the data type of the return output defined on this line of code (0, being and integer), otherwise the program will not compile and will return an error specifying non matching data types*/
 } // The declaration of the return data type is followed by the closing curly brace.
 
-Example 1:
-	#include “iostream”
-    int main() { 	// the main section of the program starts here
+/*
+ Example 1:*/
+
+#include “iostream”
+int main() { 	// the main section of the program starts here
 	...some code…;
 	...some code…;
 	return 0;
 }  // the main section of the program ends here
 
-or
-Example 2:
+/* or
+Example 2:*/
+
 #include <iostream>
 int main()
 {    // the main section of the program starts here
-...some code…;
+    ...some code…; // lines between curly braces end with a semicolon
 	...some code…;
 	return 0;
-}   // the main section of the program ends here
-Each line between the curly braces with a semicolon
-Example:
-#include <iostream>
-int main()
-{
-	…. some code….; // a semicolon signals the end of each line of code
-	…..some code….;
-	return 0;
-}
+}   /* the main section of the program ends here
+
 ------------------------------------------------------------------------
-Writing output to the console:
-
-	Example 1:
-#include <iostream>
-int main()
-{
-	…. some code….;
-	std::cout<<”Hello World”;   // use the command in bold type to print output
-	return 0;
-}
-
-In come cases this format can be used to avoid typing std:: each time.
-
-Example 2:
-#include <iostream>
-using namespace std;  //
-int main()
-{
-	…. some code….;
-cout<<”some text output”; // note std:: can be omitted in this case
-	return 0;
-}
-
-Note: this method might lead to library conflicts on larger projects
-
-Commenting:
+Adding comments:
 A comment block:
 the comment block goes between these special characters
 /*....some text…….*/
@@ -132,7 +102,29 @@ variable name = “some characters” note: wrap stings in double quotes
 Assignment of numbers to variables:
 variable name = 20196378  note: numbers aren't enclosed in quotes
 
-Sending output to the console:
+Sending output to the console:*/
+
+	Example 1:
+    #include <iostream>
+    int main()
+    {
+	…. some code….;
+	std::cout<<”Hello World”;   // use the command in bold type to print output
+	return 0;
+    }
+
+// In come cases this format can be used to avoid typing std:: each time.
+
+    Example 2:
+    #include <iostream>
+    using namespace std;  //
+    int main()
+    {
+	   …. some code….;
+       cout<<”some text output”; // note std:: can be omitted in this case
+	    return 0;
+    } // Note: this method might lead to library conflicts on larger projects
+/*
 String output:
 	#include <iostream>
 
