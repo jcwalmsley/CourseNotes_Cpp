@@ -1,20 +1,24 @@
 // Understanding C++ programs:
+
 /*  Additional reading:
     The C++ Programming Language: 4th Edition
     Bjarne Stroustrup
     ISBN: 9780133522853
 */
+
 // insert a link to [The C++ Programming Language: 4th Edition]
 
 
+
 /*
+USING C++
 
-C++ programs have at two sections.
+Programs in C++ programs have two sections.
 
 
-####
 CHAPTER ONE GETTING STARTED
 
+####
 The preprocessing directive.
 
 A (# hash symbol) is used to indicate the start of a preprocessing directive.
@@ -74,18 +78,26 @@ int main()
 
 ------------------------------------------------------------------------
 Adding comments:
-A comment block:
-the comment block goes between these special characters
-/*....some text…….*/
+
+To add a comment block:
+
+Example 1:
+/*.... Start a comment block with a backslash followed by an asterix
+    ...some text...
+    ...some text...
+    ...some text...
+    ...some text...
+*/ // End a comment block with a asterix followed by a backslash
+
+
 /*
-Highlighting the lines inside of a comment block can make it nore noticeable as a comment block and can be done using double or triple asterix at the beginning of each indented inner line
-
-Example:
-/* The slash aterix starts the first line of a block quote.
-    ** or *** double or triple asterix can be used for comment blocks occupying more than one line the inner lines can
-
-	 **  Note the ** or *** are completely optional
-
+Example 2:
+/*
+    **  double
+    *** or triple asterixs can be used
+    *** to make inner comment block
+    **  lines standout a bit more
+	**  but are optional
 */ // asterix slash terminates the block quote
 
 /*
