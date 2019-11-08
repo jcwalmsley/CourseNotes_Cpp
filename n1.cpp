@@ -42,7 +42,7 @@ A (# hash symbol) is used to indicate the start of a preprocessing directive.
 
 The # symbol is followed by the keyword (include) which works with the next keyword specifying where to search for the item to be included.
 
-The second keyword on this line is wrapped in either <..> or “..” which indicates to the compiler to look in either the local directory or or standard library for the preprocessing directive.
+The second keyword on this line is wrapped in either <..> or “..” which directs the compiler to look in either the local directory or or standard library for the preprocessing directive.
 
 The wrappers are either “...” double quotation marks or <...> double angle brackets
 
