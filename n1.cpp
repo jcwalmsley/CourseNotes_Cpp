@@ -36,7 +36,7 @@ C++ programs have at two sections.
 
 
 ####
-Section one is the preprocessing directive.
+SECTION ONE is the preprocessing directive.
 
 A (# hash symbol) is used to indicate the start of a preprocessing directive.
 
@@ -52,16 +52,16 @@ Double angle brackets  <...> tells the compiler to look for the preprocessing di
 
 Examples:
 
-	#include “main.hpp” - use the preprocessing directive contained in the local directory if it exists and if not use the one in the standard library
+    #include “main.hpp”
 
 or
 
-    #include <iostream>  - use the preprocessing directive in the standard library
+    #include <iostream>  ]
 
 
 
 ####
-Section two is the main part of the program:
+SECTION TWO is the main part of the program:
 
     Begin the main section with a statement specifying what data type the program returns.
 
