@@ -116,13 +116,13 @@ Assignment symbol:
 Assigning values to strings variables:
 
 Example: */
-variable name = “some characters”  // note: wrap stings in double quotes
+variableName = “some string”  // note: wrap stings in double quotes
 
 
 /*
 Assigning numberical values to variables:
 Example: */
-variable name = 20196378  note: numbers aren't enclosed in quotes
+variableName = 20196378  note: numbers aren't enclosed in quotes
 
 
 /*
