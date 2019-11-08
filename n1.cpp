@@ -74,9 +74,10 @@ int main()
     ...some code…; // lines between curly braces end with a semicolon
 	...some code…;
 	return 0;
-}   /* the main section of the program ends here
+}   // the main section of the program ends here
 
 ------------------------------------------------------------------------
+/*
 Adding comments:
 
 To add a comment block:
@@ -101,19 +102,30 @@ Example 2:
 */ // asterix slash terminates the block quote
 
 /*
-One line comments:
-// one line comments are indicated by two backslashes at the beginning of the line
+Single line comments:
 
+// single line comments begin with two backslashes
+*/
+
+------------------------------------------------------------------------
+/*
 Assignment symbol:
-    The =  the equal sign is used when assigning values to a variable
+    =  assign values to a variable using an equals sign
 
-Example:
-Assignment of strings to variables:
-variable name = “some characters” note: wrap stings in double quotes
 
-Assignment of numbers to variables:
+Assigning values to strings variables:
+
+Example: */
+variable name = “some characters”  // note: wrap stings in double quotes
+
+
+/*
+Assigning numberical values to variables:
+Example: */
 variable name = 20196378  note: numbers aren't enclosed in quotes
 
+
+/*
 Sending output to the console:*/
 
 	Example 1:
