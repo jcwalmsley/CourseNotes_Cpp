@@ -122,33 +122,35 @@ variableName = “some string”  // note: wrap stings in double quotes
 /*
 Assigning numberical values to variables:
 Example: */
-variableName = 20196378  note: numbers aren't enclosed in quotes
-
-
+variableName = 20196378  // note: numbers aren't enclosed in quotes
 /*
-Sending output to the console:*/
 
-	Example 1:
+------------------------------------------------------------------------
+Sending output to the console:
+
+	Example 1: */
     #include <iostream>
     int main()
     {
 	…. some code….;
-	std::cout<<”Hello World”;   // use the command in bold type to print output
+	std::cout<<”Hello World”;   // using the std::cout method
 	return 0;
     }
 
-// In come cases this format can be used to avoid typing std:: each time.
-
-    Example 2:
+// Avoid typing std:: each time by inserting: using namespace std;
+    /*
+    Example 2: */
     #include <iostream>
-    using namespace std;  //
+    using namespace std;  // note: may introduce library conflicts on longer programs
     int main()
     {
 	   …. some code….;
-       cout<<”some text output”; // note std:: can be omitted in this case
+       cout<<”some text output”; // note std:: can be omitted when inserting:  using namespace std: as shown above
 	    return 0;
-    } // Note: this method might lead to library conflicts on larger projects
+    }
 /*
+
+------------------------------------------------------------------------
 String output:
 	#include <iostream>
 
