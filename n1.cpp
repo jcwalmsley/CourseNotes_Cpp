@@ -44,8 +44,6 @@ The # symbol is followed by the keyword (include) which works with the next keyw
 
 The second keyword on this line is wrapped in either <..> or “..” which directs the compiler to look in either the local directory or or standard library for the preprocessing directive.
 
-The wrappers are either “...” double quotation marks or <...> double angle brackets
-
 Double quotation marks “...” tells the compiler to look for the specified library in the current directory first and if not found there, then look in the standard (std.) libraries.
 
 Double angle brackets  <...> tells the compiler to look for the preprocessing directory in the location of the standard libraries.
