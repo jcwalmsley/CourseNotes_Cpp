@@ -6,7 +6,7 @@
 */
 // insert a link to [The C++ Programming Language: 4th Edition]
 
- 
+
 /*
 
 C++ programs have at two sections.
@@ -46,7 +46,7 @@ Example:
 {
 	...some code…;
 	...some code…;
-    return 0; //  note: the specified data type on line 2 above must match data type of the output defined here on the last line of code excluding the closing curly brace
+    return 0; //  note: the specified data type just before the opening curly brace matchs the data type of the return output defined on this line of code, otherwise the program will not compile and will return an error specifying non matching data types
 }
 
 NOTE: the return value 0, an integer, matches the “int main() data type int statement above it. If the data types of these two statements don’t match, the compiler returns an error statement indicating mismatching data types.
