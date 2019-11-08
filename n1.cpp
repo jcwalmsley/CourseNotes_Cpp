@@ -47,11 +47,7 @@ Example:
 	...some code…;
 	...some code…;
     return 0; //  note: the specified data type just before the opening curly brace matchs the data type of the return output defined on this line of code (0, being and integer), otherwise the program will not compile and will return an error specifying non matching data types
-}
-
-NOTE: the return value 0, an integer, matches the “int main() data type int statement above it. If the data types of these two statements don’t match, the compiler returns an error statement indicating mismatching data types.
-
-The declaration of the data type is followed by opening and closing curly braces, which indicate the actual start and end of the program. The actual program lies between these two curly braces.
+} // The declaration of the return data type is followed by the closing curly brace.
 
 Example 1:
 	#include “iostream”
