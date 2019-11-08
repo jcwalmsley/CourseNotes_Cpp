@@ -51,11 +51,11 @@ Example:
 
 Example 1:
 	#include “iostream”
-int main() { 	// the main section of the program starts here
+    int main() { 	// the main section of the program starts here
 	...some code…;
 	...some code…;
 	return 0;
-}    // the main section of the program ends here
+}  // the main section of the program ends here
 
 or
 Example 2:
