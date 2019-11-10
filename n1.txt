@@ -1,24 +1,42 @@
-// Understanding C++ programs:
+UNDERSTANDING C++ PROGRAMS
 
-/*  Additional reading:
-    The C++ Programming Language: 4th Edition
-    Bjarne Stroustrup
-    ISBN: 9780133522853
-*/
+Brief History -
 
 
-/*
+
+Terms and definitions
+    Text Editor
+    Style guides
+    Command Line Interface BASH terminal
+    Working directory
+    Program structure
+        comments
+        preprocessing directives
+        output datatype statement
+        namespace
+        standard library
+
+
+
+
+
+
+In general, C++ programs have at least two main parts or sections.
+
+
+
+
 USING C++
-
-C++ programs have at least two sections.
-
 
 CHAPTER ONE GETTING STARTED
 
 ####
-The preprocessing directive.
 
-A (# hash symbol) is used to indicate the start of a preprocessing directive.
+
+working directory - location of the files to written by the programmer for the current program
+preprocessing directive - a command that instructs the compiler to apply methods contained in the preprocessor file
+
+The first line in a C++ program begins with a (# hash symbol) indicating the start of a preprocessing directive. A preprocessing directive
 
 The # symbol is followed by the keyword (include) which works with the next keyword specifying where to search for the item to be included.
 
