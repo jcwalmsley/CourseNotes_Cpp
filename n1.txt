@@ -1,6 +1,7 @@
 UNDERSTANDING C++ PROGRAMS
 
 Brief History -
+    1979 Bjarne Stroustrup
 
 
 
@@ -54,6 +55,7 @@ Terms
     Output datatype statement
 
     Preprocessing directives - instructions carried out by the compiler to add or change the raw code in some way before creating the object file code
+
         Macros
             define new macro
             named code = macros
@@ -74,7 +76,7 @@ Terms
         Accepted conventions for how code should be formatted
 
     Working directory
-        folder containing all relevant files for use in a program under control of the programmer
+        folder containing all relevant local files used in a program
 
 
 
