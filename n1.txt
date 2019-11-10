@@ -5,23 +5,60 @@ Brief History -
 
 
 Terms and definitions
-    Text Editor
-    Style guides
-    Command Line Interface BASH terminal
-    Working directory
+
+    Command Line Interface or BASH terminal for MAC os
+        User interface, used for managing files and directories relating to the C++ program being written
+
+    Executable code or Binary code
+        machine code that is run by the computer hardware
+
+    Object code
+        code after being pre processed by the compiler
+
+    Linkage
+        Internal
+
+        External
+
     Program structure
         comments
-        preprocessing directives
-        output datatype statement
-        namespace
-        standard library
+            line comment - normally a single line but can be longer
+                starts with //
+            block comment - used when several lines are required
+                start with /*
+                inner lines - optionally can begin with ** or ***
+                end with */
+
+    Namespace
+
+    Output datatype statement
+
+    Preprocessing directives - instructions carried out by the compiler to add or change the raw code in some way before creating the object file code
+        Macros
+            define new macro
+            named code = macros
+        Inclusion of files
+            header files
+            standard library files
+            conditional compilation statement
+            other directives
+
+
+
+        Text Editor
+            Application for creating and modifying program code and related text
+
+        Standard library
+
+        Style guides
+            Accepted conventions for how code should be formatted
+
+        Working directory
+            folder containing all relevant files for use in a program under control of the programmer
 
 
 
 
-
-
-In general, C++ programs have at least two main parts or sections.
 
 
 
@@ -29,6 +66,8 @@ In general, C++ programs have at least two main parts or sections.
 USING C++
 
 CHAPTER ONE GETTING STARTED
+In general, C++ programs have at least two main parts or sections.
+
 
 ####
 
