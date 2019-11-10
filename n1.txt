@@ -6,14 +6,11 @@
     ISBN: 9780133522853
 */
 
-// insert a link to [The C++ Programming Language: 4th Edition]
-
-
 
 /*
 USING C++
 
-Programs in C++ programs have two sections.
+C++ programs have at least two sections.
 
 
 CHAPTER ONE GETTING STARTED
@@ -95,7 +92,7 @@ Example 1:
 Example 2:
 /*
     **  double
-    *** or triple asterixs can be used
+    *** or triple asterix can be used
     *** to make inner comment block
     **  lines standout a bit more
 	**  but are optional
@@ -120,7 +117,7 @@ variableName = “some string”  // note: wrap stings in double quotes
 
 
 /*
-Assigning numberical values to variables:
+Assigning numerical values to variables:
 Example: */
 variableName = 20196378  // note: numbers aren't enclosed in quotes
 /*
@@ -133,7 +130,7 @@ Sending output to the console:
     int main()
     {
 	…. some code….;
-	std::cout<<”Hello World”;   // using the std::cout method
+	std::cout<<”Hello World”;   // using the std::cout<< method
 	return 0;
     }
 
