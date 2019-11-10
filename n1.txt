@@ -6,6 +6,10 @@ Brief History -
 
 Terms
 
+    Class
+
+
+
     Command Line Interface or BASH terminal for MAC os
         User interface, used for managing files and directories relating to the C++ program being written
 
@@ -20,13 +24,21 @@ Terms
     Executable code or Binary code
         machine code that is run by the computer hardware
 
+
+    Object
+
     Object code
         code after being pre processed by the compiler
+
+    Instance variables
 
     Linkage
         Internal
 
         External
+
+    Methods
+
 
     Program structure
         comments
