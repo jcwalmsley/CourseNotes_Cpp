@@ -1,28 +1,32 @@
 // Style guides for code formatting a) modern C++ Coding Guidelines or b) Google C++ Style Guidelines
 
 
-
-// C++ Hello World program
+//-----------------
+// Example: C++ Hello World program
 /*write a C++ program that outputs the following statement:
 *** "Hello world, I am ready for C++"
 */
 
+/*
 #include <iostream>
  int main()
 {
     std::cout << "Hello world, I am ready for C++";
     return 0;
 }
+*/
+
 //  #include "main.hpp" // use this to include a header file where you can place all the preprocessing directive statements
 //  g++  main.cpp -o main.out
 //  use the command above to compile your code and send output to the console
 // comments either by lines or by blocks
 
-//------------
-// using namespace std;
+//-----------------
+// Example: using namespace std;
 
 /*Use the "namespace" keyword to simplify typing by "using namespace std;" its possible to use this just before the beginning of the main program to avoid having to repeatedly type "std::..."" over and over note: using this can potentialy result in library linking conflicts in larger programs*/
 
+/*
 #include <iostream>
 using namespace std;
 int main()
@@ -31,6 +35,51 @@ int main()
     cout << "change the program so I don't have to write it.";
     return 0;
 }
+*/
+
+//-----------------
+// Example: write to the console
+/*
+int main()
+{
+    int integer = 4543:
+    std::cout<<"The value of integer is "<<integer;
+    return 0;
+}
+*/
+
+// ----------------
+// Example: size of a datatype
+/*
+    GOAL: Practice writing to the console and learn
+    **the variables types available in C++
+    **Print the sizes of each variable to the console.
+    **Print them in the following order:
+    **int, short, long, char, float, double, bool
+    **
+    **Use the command sizeof(variable type) ie: sizeof(int)
+*/
+
+/*
+#include <iostream>
+using namespace std;
+
+int main() {
+{
+    using namespace std;
+    cout<<"int size = "<<sizeof(int)<<"\n";
+    cout<<"short size = "<<sizeof(short)<<"\n";
+    cout<<"long size = "<<sizeof(long)<<"\n";
+    cout<<"char size = "<<sizeof(char)<<"\n";
+    cout<<"float size = "<<sizeof(float)<<"\n";
+    cout<<"double size = "<<sizeof(double)<<"\n";
+    cout<<"bool size = "<<sizeof(bool)<<"\n";
+    return 0;
+}
+*/
+//-----------------
+
+
 
 
 
