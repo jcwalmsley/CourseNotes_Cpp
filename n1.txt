@@ -45,16 +45,16 @@ Terms and definitions
 
 
 
-        Text Editor
-            Application for creating and modifying program code and related text
+    Text Editor
+        Application for creating and modifying program code and related text
 
-        Standard library
+    Standard library
 
-        Style guides
-            Accepted conventions for how code should be formatted
+    Style guides
+        Accepted conventions for how code should be formatted
 
-        Working directory
-            folder containing all relevant files for use in a program under control of the programmer
+    Working directory
+        folder containing all relevant files for use in a program under control of the programmer
 
 
 
