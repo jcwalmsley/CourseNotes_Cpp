@@ -9,6 +9,14 @@ Terms
     Command Line Interface or BASH terminal for MAC os
         User interface, used for managing files and directories relating to the C++ program being written
 
+    Compile - command given to compile the code
+        g++ main.cpp -o main.out
+            g++ -  run the C++ compiler
+            main.cpp - the name of the file to compile
+            -o - flag to name the output file
+
+            ./main.out - command given to run the output file main.out
+
     Executable code or Binary code
         machine code that is run by the computer hardware
 
