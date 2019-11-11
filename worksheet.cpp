@@ -143,8 +143,16 @@ int main()
 /* Example: format output
 #include <iomamip>
 std::cout<<"Ints",,std::setw(10)<<"Floats"<<setw(10)<<"Doubles"<<"\n";
-
-
+*/
+/*
+#include <iomamip>
+std::cout<<"\n\nThe text without any formatiting\n";
+std::cout<<"Ints"<<"Floats"<<"Doubles"<<"\n";
+std::cout<<"The text with setw(15)\n";
+std::cout<<"Ints"<<std::setw(15)<<"Floats"<<std::setw(15)<<std::setw(15)<<"Doubles"<<"\n";
+std::cout<<"\n\nThe text with tabs\n";
+std::cout<<"Ints\t"<<"Floats\t"<<"Doubles"<<"\n";
+*/
 
 
 
