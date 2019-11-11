@@ -140,10 +140,13 @@ int main()
 }
 */
 //-----------------
-/* Example: format output
+// Simple Example of formating output
+/*
 #include <iomamip>
 std::cout<<"Ints",,std::setw(10)<<"Floats"<<setw(10)<<"Doubles"<<"\n";
 */
+
+// Second example format output
 /*
 #include <iomamip>
 std::cout<<"\n\nThe text without any formatiting\n";
@@ -153,7 +156,56 @@ std::cout<<"Ints"<<std::setw(15)<<"Floats"<<std::setw(15)<<std::setw(15)<<"Doubl
 std::cout<<"\n\nThe text with tabs\n";
 std::cout<<"Ints\t"<<"Floats\t"<<"Doubles"<<"\n";
 */
-//-----------------
+// Showing output if formatting above
+/*
+The text without any formating
+IntsFloatsDoubles
+
+The text with setw(15)
+Ints         Floats        Doubles
+
+
+The text with tabs
+Ints    Floats    Doubles
+*/
+
+
+// Example three: more extensive formatting example
+
+/*
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+    int a = 45;
+    float b = 45.323;
+    double c = 45.5468;
+    int aa = a + 9;
+    float bb = b + 9;
+    double cc = c + 9;
+    int aaa = aa + 9;
+    float bbb = bb + 9;
+    double ccc = cc + 9;
+    cout<<"print with set width = 10\n";
+    cout<<"Ints"<<std::setw(10);
+    cout<<"Floats"<<std::setw(10);
+    cout<<"Doubles"<<std::setw(10)<<"\n";
+    cout<< a;
+    cout<< setw(12)<< b;
+    cout<< setw(10)<< c << "\n";
+    cout<< aa;
+    cout<< setw(12)<< bb;
+    cout<< setw(10)<< cc << "\n";
+    cout<< aaa;
+    cout<< setw(12)<< bbb;
+    cout<< setw(10)<< ccc << "\n";
+    return 0;
+}
+*/
+
+
+
 
 
 
