@@ -76,8 +76,7 @@ Terms
         Accepted conventions for how code should be formatted
 
     Working directory
-        folder containing all relevant local files used in a program
-
+        the directory (folder) where the user is currently working
 
 
 
