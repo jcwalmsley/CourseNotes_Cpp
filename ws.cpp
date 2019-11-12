@@ -528,7 +528,7 @@ int main()
         }
         default:
         {
-            std::cout<<"Please select menuItem A,B,C or D.\n";
+            std::cout<<"Illegal operation.\n";
         }
 
     }
