@@ -384,6 +384,47 @@ d
 red
 1
 */
+// switch statement program
+#include<iostream>
+
+int main()
+{
+    char menuItem;
+    std::cout<<"Choose your holiday package:\n";
+    std::cout<<"L: luxury package\nS: standard package\n";
+    std::cout<<"B: basic package ";
+
+    std::cin>>menuItem;
+    std::cout<<menuItem<<"\n";
+        std::cout<<"The "<<menuItem<<" package includes:\n";
+
+    switch(menuItem)
+    {
+        case 'L':
+        {
+            std::cout<<"\tSpa Day\n";
+            std::cout<<"\tSailboat Tour\n";
+        }
+        case 'S':
+        {
+            std::cout<<"\tCity Tour\n";
+            std::cout<<"\tComplimentary Happy Hour\n";
+        }
+        case 'B':
+        {
+            std::cout<<"\tAirport Transfers\n";
+            std::cout<<"\tComplimentary Breakfast\n";
+            break;
+        }
+        default:
+            std::cout<<"Please select the L,S,B package.\n";
+    }
+    return 0;
+}
+
+
+
+//-----------------
 
 
 
@@ -438,6 +479,65 @@ int main ()
 
     else cout << "Unable to open file for reading";
 
+    return 0;
+}
+// Exercise:
+
+#include <iostream>
+
+int main()
+{
+    char A,B,C,D;
+    float in1, in2;
+    float add;
+    float subtract;
+    float multiply;
+    float divide;
+
+
+    std::cout<<"Enter two numbers:\n";
+    std::cin>>in1;
+    std::cin>>in2;
+    std::cout<<"You entered: "<<in1<<" for in1 and\n";
+    std::cout<<"You entered: "<<in2<<" for in2\n";
+
+    char menuItem;
+    std::cout<<"Enter the operation '+','-','*','/'\n";
+    std::cin>>menuItem;
+    std::cout<<"You entered the "<<menuItem<<" for the operation\n";
+
+    switch(menuItem)
+    {
+        case '+':
+        {
+            std::cout<<"The sum of in1 + in2 is: ";
+            std::cout<<(in1 + in2);"\n";
+                 break;
+        }
+        case '-':
+        {
+            std::cout<<"The difference of in1 minus in2 is: ";
+            std::cout<<(in1 -in2);"\n";
+                 break;
+        }
+        case '*':
+        {
+            std::cout<<"The product of in1 and in2 is: ";
+            std::cout<<(in1*in2);"\n";
+                 break;
+        }
+        case '/':
+        {
+            std::cout<<"The result of in1 divided by in2 is: ";
+            std::cout<<(in1/in2);"\n";
+                 break;
+        }
+        default:
+        {
+            std::cout<<"Please select menuItem A,B,C or D.\n";
+        }
+
+    }
     return 0;
 }
 */
