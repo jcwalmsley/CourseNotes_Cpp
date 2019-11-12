@@ -487,13 +487,7 @@ int main ()
 
 int main()
 {
-    char A,B,C,D;
     float in1, in2;
-    float add;
-    float subtract;
-    float multiply;
-    float divide;
-
 
     std::cout<<"Enter two numbers:\n";
     std::cin>>in1;
@@ -541,7 +535,7 @@ int main()
     return 0;
 }
 */
-
+//-----------------
 
 
 
