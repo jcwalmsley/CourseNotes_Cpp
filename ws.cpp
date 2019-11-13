@@ -421,13 +421,60 @@ int main()
     }
     return 0;
 }
-
-
-
 //-----------------
+// Example for loops:
+// the following two forms are available in C++
 
+for ( declaration : range ) statement;
 
+for (initialization; condition; increase) statement;
 
+//
+
+#include <iostream>
+
+int main()
+{
+    for(int i=0; i< 10;i++)
+    {
+        std::cout<<"i = "<<i<<"\n";
+    }
+    return 0;
+}
+/*
+output
+i = 0
+i = 1
+i = 2
+i = 3
+i = 4
+i = 5
+i = 6
+i = 7
+i = 8
+i = 9
+*/
+/*Write a program that asks a user for five numbers.
+**Print out the sum and average of the five numbers.
+*/
+#include <iostream>
+
+int main()
+{
+    float input;
+    float sum;
+
+    for(int i=0;i<5;i++)
+    {
+        std::cout<<"What is the next number?\n";
+        std::cin>>input;
+        sum = sum + input;
+    }
+    std::cout<<"Sum = "<<sum<<"\n";
+    std::cout<<"Average = "<<sum/5<<"\n";
+    return 0;
+}
+//-----------------
 
 
 
