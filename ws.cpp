@@ -1015,6 +1015,7 @@ After continue a = 15
 
 
 
+
 //-----------------
 // Truth Table Exercise pt.1
 /*Goal: use logical and relational operators in a C++ program.
