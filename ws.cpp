@@ -729,8 +729,10 @@ do {
     /* code */
 } while(/* condition */);
 // Example of a do while loop from the Udacity C++ for programmers course
-// Note: in this type of do while loop the statements are executed on iteration before the condition is checked
-//
+/* Note:
+    ** in this type of do while loop the statements are executed
+    ** on iteration before the condition is checked
+*/
 int main()
 {
     int count = 0;
