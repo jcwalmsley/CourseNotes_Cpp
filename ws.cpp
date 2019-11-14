@@ -673,6 +673,99 @@ int main()
 }
 */
 //-----------------
+// While loops
+/* C++ has two forms of while loops
+    // while
+    ** and
+    // do...while
+*/
+/* "Goal: understand the syntax of while loops" */
+// Standard while loop syntax:
+//
+while (/* condition */) {
+    /* code */
+}
+// Example of standard while loop from the Udacity C++ for programmers course:
+//
+#include <iostream>
+
+int main()
+{
+    int entry = 0;
+
+    //with this while loop the condition is true
+    //so the statements are executed
+
+    while(entry <=5)
+    {
+        std::cout<<"incrementing entry = "<<entry<<"\n";
+        entry++;
+    }
+
+    //with this while loop the condition is false
+    //so the statements are not executed
+
+    while(entry < 5)
+    {
+        std::cout<<"decrementing entry = "<<entry<<"\n";
+        entry--;
+    }
+
+    return 0;
+//
+/* Output:
+    incrementing entry = 0
+    incrementing entry = 1
+    incrementing entry = 2
+    incrementing entry = 3
+    incrementing entry = 4
+    incrementing entry = 5
+*/
+// C++ do while loop syntax:
+//
+do {
+    /* code */
+} while(/* condition */);
+// Example of a do while loop from the Udacity C++ for programmers course
+// Note: in this type of do while loop the statements are executed on iteration before the condition is checked
+//
+int main()
+{
+    int count = 0;
+
+    //This do..while loop will execute until count =5
+    do
+    {
+        std::cout<<"Count = "<<count<<"\n";
+        count++;
+    }while(count < 5);
+
+
+    int otherCount = 6;
+    //This do..while loop will execute once. Even though
+    //otherCount > 5
+    do
+    {
+        std::cout<<"othercount = "<<otherCount<<"\n";
+        otherCount++;
+    }while(otherCount < 5);
+
+    return 0;
+}
+// Output from this example:
+/*
+    Count = 0
+    Count = 1
+    Count = 2
+    Count = 3
+    Count = 4
+    othercount = 6
+*/
+
+
+
+
+
 
 
 
