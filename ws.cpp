@@ -1010,7 +1010,79 @@ After continue a = 13
 After continue a = 14
 After continue a = 15
 */
-// Example pointers
+// Example pointers - definition - "are addresses of variables"
+//
+in a = 54; // 'a' is a pointer to the value of 54
+// where is 'a'?
+int a = 54;
+std::cout<< &a <<"\n";
+/* this will print the memory location or (address) of 'a' in other words the '&' sign returns the address to the computers memory location where the variable data is held */
+//
+// this is an integer variable with value = 54
+int a = 54;
+
+// this is a pointer that holds the address of the variable 'a'.
+// if 'a' was a float, rather than int, so should be its pointer.
+int * pointerToA = &a;
+
+// If we were to print pointerToA, we'd obtain the address of 'a':
+std::cout << "pointerToA stores " << pointerToA << '\n';
+
+// If we want to know what is stored in this address, we can dereference pointerToA:
+std::cout << "pointerToA points to " << * pointerToA << '\n';
+/* the "*" asterix in this situation is used to dereference the pointerToA location and returns the value stored at that computer memory location
+*/
+// Output:
+/*
+    pointerToA stores 0x7e309665ca1c
+    pointerToA points to 54
+*/
+//
+
+//
+/*Goal: Examine pointers! from C++ for programmers */
+
+#include <iostream>
+
+int main()
+{
+    int a = 54;
+    std::cout<<"a = "<<a<<"\n";
+    std::cout<<"address of a is at &a = "<< &a<<"\n";
+    return 0;
+}
+//
+/*
+    a = 54
+    address of a is at &a = 0x779bf10ede7c
+*/
+//
+
+
+
+
+
+
+// Example from the website C++ shell @ http://cpp.sh/
+//
+// my first pointer
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  int firstvalue, secondvalue;
+  int * mypointer;
+
+  mypointer = &firstvalue;
+  *mypointer = 10;
+  mypointer = &secondvalue;
+  *mypointer = 20;
+  cout << "firstvalue is " << firstvalue << '\n';
+  cout << "secondvalue is " << secondvalue << '\n';
+  return 0;
+}
+//
 
 
 
