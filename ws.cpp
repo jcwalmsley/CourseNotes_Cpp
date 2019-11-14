@@ -1037,9 +1037,7 @@ std::cout << "pointerToA points to " << * pointerToA << '\n';
     pointerToA stores 0x7e309665ca1c
     pointerToA points to 54
 */
-//
 
-//
 /*Goal: Examine pointers! from C++ for programmers */
 
 #include <iostream>
@@ -1057,12 +1055,6 @@ int main()
     address of a is at &a = 0x779bf10ede7c
 */
 //
-
-
-
-
-
-
 // Example from the website C++ shell @ http://cpp.sh/
 //
 // my first pointer
@@ -1082,9 +1074,120 @@ int main ()
   cout << "secondvalue is " << secondvalue << '\n';
   return 0;
 }
+// Programming quiz on pointers
+/*For this program print for each variable
+**print the value of the variable,
+**then print the address where it is stored.
+*/
+#include<iostream>
+#include<string>
+
+int main()
+{
+    int givenInt;
+    float givenFloat;
+    double givenDouble ;
+    std::string givenString;
+    char givenChar;
+
+
+    return 0;
+}
+// Input.txt for the programming quiz on pointers
+/*
+    32
+    64.212
+    4.76545
+    *
+    Hey look at me! I know pointers!
+*/
 //
+// Programming quiz solution on pointers
+/*
+*For this program: print for each variable
+**print the value of the variable,
+**then print the address where it is stored.
+*/
+
+#include<iostream>
+#include<string>
+
+int main()
+{
+    std::string name;
+    int givenInt;
+    float givenFloat;
+    double givenDouble;
+    std::string givenString;
+    char givenChar;
+    int *pointerGivenInt;
+    int **pointerPointerGivenInt;
+
+    pointerGivenInt = &givenInt;
+    pointerPointerGivenInt = &pointerGivenInt;
+
+   //Get the values of each variable
+    std::cout<<"integer = \n";
+    std::cin>>givenInt;
+    std::cout<<"float = \n";
+    std::cin>>givenFloat;
+    std::cout<<"double = \n";
+    std::cin>>givenDouble;
+    //We need to use cin.ignore so cin will ignore
+   //the characters in the buffer leftover
+   //from the givenDouble
+    std::cin.ignore();
+    std::cout<<"character = \n";
+    std::cin>>givenChar;
+
+    std::cout<<"string = \n";
+    std::cin.ignore();
+    std::getline (std::cin,givenString);
 
 
+    //The value stored in the data
+    std::cout<<"integer = "<<givenInt<<"\n";
+    std::cout<<"float = "<<givenFloat<<"\n";
+    std::cout<<"double = "<<givenDouble<<"\n";
+    std::cout<<"string = "<<givenString<<"\n";
+    std::cout<<"character = "<<(char)givenChar<<"\n\n";
+
+    //The address of the data - use pointers
+    std::cout<<"address integer = "<<&givenInt<<"\n";
+    std::cout<<"address float = "<<&givenFloat<<"\n";
+    std::cout<<"address double = "<<&givenDouble<<"\n";
+    std::cout<<"address string = "<<&givenString<<"\n";
+    std::cout<< "address character = " << (void *) &givenChar<<"\n\n";
+
+   //Use indirection to the get the value stored at the address
+    std::cout<< "pointer of givenInt = " << *pointerGivenInt<<"\n";
+    std::cout<< "pointer of pointer of givenInt = " << **pointerPointerGivenInt<< "\n";
+
+    return 0;
+}
+//
+// Output:
+/*
+integer =
+float =
+double =
+character =
+string =
+integer = 32
+float = 64.212
+double = 4.76545
+string = Hey look at me! I know pointers!
+character = *
+
+address integer = 0x7fff9ce67cf8
+address float = 0x7fff9ce67cfc
+address double = 0x7fff9ce67d18
+address string = 0x7fff9ce67d10
+address character = 0x7fff9ce67cf7
+
+pointer of givenInt = 32
+pointer of pointer of givenInt = 32
+*/
 
 
 
