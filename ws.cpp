@@ -207,10 +207,12 @@ int main()
 //-----------------
 /* Switch Statements
 
-    Transfers control to one of the several
-    statements, depending on the value of a condition.
+    ** Transfers control to one of the several
+    ** statements, depending on the value of a condition.
 
-    The format for a switch statement:
+    ** Examples: from the Udacity C++ for programmers course
+
+    ** Possible formats for a switch statement are shown below:
 */
 // Example 1:
 switch(1) {
@@ -443,12 +445,18 @@ int main()
     return 0;
 }
 //-----------------
-// Example for loops:
-// the following two forms are available in C++
+/* Example for loops:
+    ** The following two forms are available in C++
+    ** Example: from the Udacity C++ for programmers course
+*/
+#include <iostream>
 
-for ( declaration : range ) statement;
-
-for (initialization; condition; increase) statement;
+int main()
+{
+    for ( declaration : range ) statement;
+    // or
+    for (initialization; condition; increase) statement;
+    return 0;
 
 //
 
@@ -475,9 +483,12 @@ i = 7
 i = 8
 i = 9
 */
-/*Write a program that asks a user for five numbers.
-**Print out the sum and average of the five numbers.
+
+/* Write a program that:
+    ** Asks a user for five numbers.
+    ** Prints out the sum and average of the five numbers.
 */
+
 #include <iostream>
 
 int main()
@@ -496,6 +507,7 @@ int main()
     return 0;
 }
 // alternatively
+
 #include <iostream>
 #include <cstddef>
 
@@ -516,10 +528,6 @@ int main()
 }
 //-----------------
 
-
-
-
-//-----------------
 // File IO steps
 /*
 - Include the <fstream> library
@@ -531,7 +539,6 @@ int main()
 - Write or read the file
 - Close the file myfile.close();
 */
-
 
 #include <iostream>
 #include <fstream>
