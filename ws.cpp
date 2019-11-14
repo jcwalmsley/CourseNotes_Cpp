@@ -841,9 +841,9 @@ int main()
             else if (guess > 100)
                 std::cout<<"Your guess "<<guess<<" was above the accpetalbe range, try again,\n";
             else if(guess > target && guess < 101)
-                std::cout<<"Your guess "<<guess<<" and was too high\n";
+                std::cout<<"Your guess "<<guess<<" and was too high, try again.\n";
             else if(guess < target && guess > -1)
-                std::cout<<"Your guess was "<<guess<<" and was too low\n";
+                std::cout<<"Your guess was "<<guess<<" and was too low, try again\n";
             else
                 std::cout<<"Your guess "<<guess<<" was correct. Congratulations!\n";
             if(guess == -1)
@@ -854,7 +854,19 @@ int main()
         }
         return 0;
     }
-
+// output
+/*
+    ** Guess a number between 0 and 100: 257
+    ** Your guess 257 was above the accpetalbe range, try again,
+    ** Guess a number between 0 and 100: -54
+    ** Your guess-54 was below the accpetable range, try again.
+    ** Guess a number between 0 and 100: 77
+    ** Your guess 77 and was too high
+    ** Guess a number between 0 and 100: 33
+    ** Your guess was 33 and was too low
+    ** Guess a number between 0 and 100: 55
+    ** Your guess 55 was correct. Congratulations!
+*/
 
 
 
