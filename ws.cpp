@@ -29,7 +29,7 @@ int main()
 
 /*Use the "namespace" keyword to simplify typing by "using namespace std;" its possible to use this just before the beginning of the main program to avoid having to repeatedly type "std::..."" over and over note: using this can potentialy result in library linking conflicts in larger programs*/
 
-/*
+
 #include <iostream>
 using namespace std;
 int main()
@@ -38,18 +38,18 @@ int main()
     cout << "change the program so I don't have to write it.";
     return 0;
 }
-*/
+
 
 //-----------------
 // Example: write to the console
-/*
+
 int main()
 {
     int integer = 4543:
     std::cout<<"The value of integer is "<<integer;
     return 0;
 }
-*/
+
 
 // ----------------
 // Example: size of a datatype
@@ -63,7 +63,7 @@ int main()
     **Use the command sizeof(variable type) ie: sizeof(int)
 */
 
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -79,12 +79,12 @@ int main() {
     cout<<"bool size = "<<sizeof(bool)<<"\n";
     return 0;
 }
-*/
+
 //-----------------
 /* Example: define constants
-//Goal: use constant variables
+Goal: use constant variables */
 
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -96,12 +96,12 @@ int main()
     cout<<"WeightGoal = "<<weightGoal<<"\n";
     return 0;
 }
-*/
+
 //-----------------
 /* Example: enumerated constants
     ** users can create a new variable type using the format below and assign a specific number of elements to the new variable type*/
 
-/*
+
 enum type_name {
   value1,
   value2,
@@ -109,13 +109,13 @@ enum type_name {
   .
   .
 } object_names;
-*/
+
 /* more specifically
 enum MONTH {Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec};
 */
 // in this case the values are numberically indexed where Jan = 0, Feb = 1, etc., etc.,
 
-/*
+
 Enum example
 
 #include <iostream>
@@ -141,24 +141,25 @@ int main()
     }
     return 0;
 }
-*/
+
 //-----------------
 // First Example: simple formating of output
-/*
+
 #include <iomamip>
 std::cout<<"Ints",,std::setw(10)<<"Floats"<<setw(10)<<"Doubles"<<"\n";
-*/
+
 
 // Second Example: regular formating of output
-/*
+
 #include <iomamip>
 std::cout<<"\n\nThe text without any formatiting\n";
 std::cout<<"Ints"<<"Floats"<<"Doubles"<<"\n";
 std::cout<<"The text with setw(15)\n";
-std::cout<<"Ints"<<std::setw(15)<<"Floats"<<std::setw(15)<<std::setw(15)<<"Doubles"<<"\n";
+std::cout<<"Ints"<<std::setw(15)<<"Floats"<<std::setw(15)\
+    <<std::setw(15)<<"Doubles"<<"\n";
 std::cout<<"\n\nThe text with tabs\n";
 std::cout<<"Ints\t"<<"Floats\t"<<"Doubles"<<"\n";
-*/
+
 // Showing output if formatting above
 /*
 The text without any formating
@@ -204,23 +205,26 @@ int main()
     return 0;
 }
 //-----------------
-/*
-Switch Statements = Transfers control to one of the several statements, depending on the value of a condition.
+/* Switch Statements
 
-The format for a switch statement:
+    Transfers control to one of the several
+    statements, depending on the value of a condition.
+
+    The format for a switch statement:
 */
+// Example 1:
 switch(1) {
     case 1 : cout << '1'; // prints "1",
     case 2 : cout << '2'; // then prints "2"
 }
-//
+// Example 2:
 switch(1) {
     case 1 : cout << '1'; // prints "1"
              break;       // and exits the switch
     case 2 : cout << '2';
              break;
 }
-//
+// Example of switch expressions:
 switch(expression)
 {
      case constant-expression : statements;
@@ -258,8 +262,9 @@ int main()
                  break;
         default: std::cout<<"Enter a valid menu item";
     }
-    //
-    /*
+
+    /* Output =
+
     What is your favorite winter sport?:
     1. Skiing
     2: Sledding
@@ -267,15 +272,16 @@ int main()
     4. Drinking hot chocolate
 
     Skiing?! Sounds dangerous!
+
     */
 
-    char begin;
+    char begin; // type declaration of variableName
     std::cout<<"\n\nWhere do you want to begin?\n";
     std::cout<<"B. At the beginning?\nM. At the middle?";
     std::cout<<"\nE. At the end?\n\n";
 
-    begin = 'M';
-    //
+    begin = 'M'; // user provided input
+
     switch(begin)
     {
         case('B'): std::cout<<"Once upon a time there was a wolf.\n";
@@ -284,38 +290,51 @@ int main()
     }
     return 0;
 }
-/*
-Where do you want to begin?
-B. At the beginning?
-M. At the middle?
-E. At the end?
+    /* Output:
 
-The wolf hurt his leg.
-The wolf lived happily everafter
+    Where do you want to begin?
+        B. At the beginning?
+        M. At the middle?
+        E. At the end?
+
+    The wolf hurt his leg.
+    The wolf lived happily everafter
 */
-//
+
 /*
-Because transfer of control is not permitted to enter the scope of a variable, if a declaration statement is encountered inside the statement, it has to be scoped in its own compound statement:
+"Because transfer of control is not permitted to enter the\
+    scope of a variable, if a declaration statement is encountered\
+    inside the statement, it has to be scoped in its own compound
+    statement:" from https://en.cppreference.com/w/cpp/language/switch
 */
-// Example:
+// Example of potential problems with default statement formatting:
 switch(1) {
     case 1: int x = 0; // initialization
-            std::cout << x << '\n';
-            break;
-    default: // compilation error: jump to default: would enter the scope of 'x'
-             // without initializing it
-             std::cout << "default\n";
-             break;
+        std::cout << x << '\n';
+        break;
+    default: // compilation error: jump to default: would enter\
+        the scope of 'x'
+        // without initializing it
+        std::cout << "default\n";
+        break;
 }
 //
 switch(1) {
     case 1: {  int x = 0;
-               std::cout << x << '\n';
-               break;
-            } // scope of 'x' ends here
+        std::cout << x << '\n';
+        break;
+        } // scope of 'x' ends here
     default: std::cout << "default\n"; // no error
-             break;
+        break;
 }
+/*
+    Example of switch sequential swith statement starting after the
+    first condition by input of i, including a break statement
+    effectively ommitting the first and last condition checks
+
+    "The following code shows several usage cases of the switch
+    statement"  https://en.cppreference.com/w/cpp/language/switch
+*/
 //
 #include <iostream>
 
@@ -379,12 +398,14 @@ int main()
 }
 //
 /* Output:
-2345
-d
-red
-1
+    2345
+    d
+    red
+    1
 */
 // switch statement program
+
+// Example: from the Udacity C++ for programmers course
 #include<iostream>
 
 int main()
