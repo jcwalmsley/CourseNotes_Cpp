@@ -674,15 +674,16 @@ int main()
 */
 //-----------------
 // While loops
-/* C++ has two forms of while loops
-    // while
-    ** and
-    // do...while
-*/
-/* "Goal: understand the syntax of while loops" */
+
 // Standard while loop syntax:
 //
 while (/* condition */) {
+    /* code */
+}
+//
+// Do while loop syntax:
+//
+do while (/* condition */) {
     /* code */
 }
 //
@@ -766,6 +767,7 @@ int main()
     ** while statment program quiz from the
     ** Udacity C++ for programmers course
 */
+//
 /*Goal: In the programming quiz, use a while loop to prompt
 **the user to guess a target number.
 **Tell the user if the guess is too high or too low.
