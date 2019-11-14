@@ -809,14 +809,11 @@ while(guess != target )
         std::cin>>guess;
         std::cout<<guess<<"\n";
         if(guess > target)
-            std::cout<<"Your guess is too high\n";
+            std::cout<<"Your guess was too high\n";
         else if(guess < target)
-            std::cout<<"Your guess is too low\n";
+            std::cout<<"Your guess was too low\n";
         else
             std::cout<<"You guessed the target!\n";
-
-        //Note I had to use double quotes around "q"
-        //because it is a string
         if(guess == -1)
         {
             std::cout<<"good bye!";
@@ -825,6 +822,39 @@ while(guess != target )
     }
     return 0;
 }
+// alternatively
+#include <iostream>
+#include<sstream>
+
+int main()
+{
+    //use 55 as the number to be guessed
+    int target = 55;
+    int guess = -1;
+
+    while(guess != target )
+        {
+            std::cout<<"Guess a number between 0 and 100: ";
+            std::cin>>guess;
+            if (guess < -1)
+                std::cout<<"Your guess"<<guess<<" was below the accpetable range, try again.\n";
+            else if (guess > 100)
+                std::cout<<"Your guess "<<guess<<" was above the accpetalbe range, try again,\n";
+            else if(guess > target && guess < 101)
+                std::cout<<"Your guess "<<guess<<" and was too high\n";
+            else if(guess < target && guess > -1)
+                std::cout<<"Your guess was "<<guess<<" and was too low\n";
+            else
+                std::cout<<"Your guess "<<guess<<" was correct. Congratulations!\n";
+            if(guess == -1)
+            {
+                std::cout<<"You've decided to exit the program. Good bye!";
+                break;
+            }
+        }
+        return 0;
+    }
+
 
 
 
