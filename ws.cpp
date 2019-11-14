@@ -143,7 +143,7 @@ int main()
 }
 
 //-----------------
-// First Example: simple formating of output
+// First Example: simple width formating of output
 
 #include <iomamip>
 std::cout<<"Ints",,std::setw(10)<<"Floats"<<setw(10)<<"Doubles"<<"\n";
