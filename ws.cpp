@@ -449,6 +449,100 @@ What is your name? Hello Bob !
     using std::cin>> it stops when it encounters a space
     whereas std::getline(std::cin, varialbeName); can get a
     whole string that has spaces between words
+    "std::cin will not retrieve strings that have a space in
+    them. It will see the space as the end of the input."
+    "getline: it will retrieve characters from the std::cin
+    source and stores them in the variable called variableName.
+    It will retrieve all characters until the newline or “\n”
+    is detected."
+    "The programmer can also specify a different delimiter if
+    the newline character is not desired. The details are in the
+    provided link."
+*/
+// Example getline string program:
+//
+#include<iostream>
+#include<string>
+
+int main()
+{
+    std::string userName;
+    std::cout<<"Tell me your nickname?: ";
+    std::getline(std::cin, userName);
+    std::cout<<"Hello "<<userName<<"\n";
+    return 0;
+}
+//
+// Output:
+/*
+Tell me your nickname?: Hello JuneBug
+*/
+// Example 2 getline for reading strings as inputs
+//
+/*Goal: practice std::cin for strings
+**Write a program that prompts two users for their
+**name, address, and phone number.
+**Print the information to the console in the following format:
+**name
+**\/t\/t address
+**\/t\/tphone number
+*/
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+    // set string data type
+    std::string name1, address1, phoneNo1;
+    std::string name2, address2, phoneNo2;
+
+    // get inputs from user 1
+    std::cout<<"User1 what is your name?\n";
+    std::getline(std::cin, name1);
+    std::cout<<"User1 what is your address?\n";
+    std::getline(std::cin, address1);
+    std::cout<<"User1 what is your phone number?\n";
+    std::getline(std::cin, phoneNo1);
+
+    // get inputs from user 2
+    std::cout<<"User2 what is your name?\n";
+    std::getline(std::cin, name2);
+    std::cout<<"User2 what is your address?\n";
+    std::getline(std::cin, address2);
+    std::cout<<"User2 what is your phone number?\n";
+    std::getline(std::cin, phoneNo2);
+
+    // print output of user 1
+    std::cout<<"\n\n"<<name1<<"\n";
+    std::cout<<"\t\t"<<address1<<"\n";
+    std::cout<<"\t\t"<<phoneNo1<<"\n";
+
+    // print output of user 2
+    std::cout<<"\n\n"<<name2<<"\n";
+    std::cout<<"\t\t"<<address2<<"\n";
+    std::cout<<"\t\t"<<phoneNo2<<"\n";
+    return 0;
+}
+//
+// Output
+/*
+User1 what is your name?
+User1 what is your address?
+User1 what is your phone number?
+User2 what is your name?
+User2 what is your address?
+User2 what is your phone number?
+
+
+Imogene Penelope Freely
+		         2343 South View Road
+		         (408)435-3221
+
+
+Sandy Beaches
+		         1123 Pebble Creek Road
+		         (408)546-5432
 */
 
 
