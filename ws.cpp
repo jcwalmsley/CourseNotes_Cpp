@@ -19,17 +19,24 @@ int main()
 }
 
 
-//  #include "main.hpp" // use this to include a header file where you can place all the preprocessing directive statements
-//  g++  main.cpp -o main.out
-//  use the command above to compile your code and send output to the console
-// comments either by lines or by blocks
+/*  #include "main.hpp" // use this to include a header file
+    where you can place all the preprocessing directive statements
+    g++  main.cpp -o main.out use the command above to compile your
+    code and send output to the console
+*/ comments either by lines or by blocks
 
 //-----------------
 // Example: using namespace std;
 
-/*Use the "namespace" keyword to simplify typing by "using namespace std;" its possible to use this just before the beginning of the main program to avoid having to repeatedly type "std::..."" over and over note: using this can potentialy result in library linking conflicts in larger programs*/
+/*Use the "namespace" keyword to simplify typing by "using
+    namespace std;" its possible to use this just before the
+    beginning of the main program to avoid having to repeatedly
+    type "std::..."" over and over note: using this can
+    potentialy result in library linking conflicts in larger
+    programs
 
-
+*/
+//
 #include <iostream>
 using namespace std;
 int main()
@@ -38,19 +45,17 @@ int main()
     cout << "change the program so I don't have to write it.";
     return 0;
 }
-
-
+//
 //-----------------
 // Example: write to the console
-
+//
 int main()
 {
     int integer = 4543:
     std::cout<<"The value of integer is "<<integer;
     return 0;
 }
-
-
+//
 // ----------------
 // Example: size of a datatype
 /*
@@ -59,11 +64,9 @@ int main()
     **Print the sizes of each variable to the console.
     **Print them in the following order:
     **int, short, long, char, float, double, bool
-    **
     **Use the command sizeof(variable type) ie: sizeof(int)
 */
-
-
+//
 #include <iostream>
 using namespace std;
 
@@ -79,12 +82,11 @@ int main() {
     cout<<"bool size = "<<sizeof(bool)<<"\n";
     return 0;
 }
-
+//
 //-----------------
 /* Example: define constants
 Goal: use constant variables */
-
-
+//
 #include <iostream>
 using namespace std;
 
@@ -99,9 +101,9 @@ int main()
 
 //-----------------
 /* Example: enumerated constants
-    ** users can create a new variable type using the format below and assign a specific number of elements to the new variable type*/
-
-
+    ** users can create a new variable type using the format below and assign a specific number of elements to the new variable type
+*/
+//
 enum type_name {
   value1,
   value2,
@@ -109,15 +111,14 @@ enum type_name {
   .
   .
 } object_names;
-
+//
 /* more specifically
 enum MONTH {Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec};
 */
 // in this case the values are numberically indexed where Jan = 0, Feb = 1, etc., etc.,
-
-
-Enum example
-
+//
+// Enum example:
+//
 #include <iostream>
 
 using namespace std;
@@ -141,16 +142,15 @@ int main()
     }
     return 0;
 }
-
+//
 //-----------------
 // First Example: simple width formating of output
-
+//
 #include <iomamip>
 std::cout<<"Ints",,std::setw(10)<<"Floats"<<setw(10)<<"Doubles"<<"\n";
-
-
+//
 // Second Example: regular formating of output
-
+//
 #include <iomamip>
 std::cout<<"\n\nThe text without any formatiting\n";
 std::cout<<"Ints"<<"Floats"<<"Doubles"<<"\n";
@@ -160,7 +160,7 @@ std::cout<<"Ints"<<std::setw(15)<<"Floats"<<std::setw(15)\
 std::cout<<"\n\nThe text with tabs\n";
 std::cout<<"Ints\t"<<"Floats\t"<<"Doubles"<<"\n";
 
-// Showing output if formatting above
+// Showing output of formatting above
 /*
 The text without any formating
 IntsFloatsDoubles
@@ -174,7 +174,7 @@ Ints    Floats    Doubles
 */
 
 // Third Example: more extensive formatting example
-
+//
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -204,6 +204,208 @@ int main()
     cout<< setw(10)<< ccc << "\n";
     return 0;
 }
+//
+// Output
+/*
+print with set width = 10
+Ints    Floats   Doubles
+45      45.323   45.5468
+54      54.323   54.5468
+63      63.323   63.5468
+*/
+//
+//
+//-----------------
+// File IO steps
+/*
+- Include the <fstream> library
+- Create a stream (input, output, both)
+     - ifstream myfile; (for reading a file)
+     - ofstream myfile; (for writing to a file)
+     - fstream myfile; (for reading and writing a file)
+- Open the file  myfile.open(“filename”);
+- Write or read the file
+- Close the file myfile.close();
+*/
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+    string line;
+    /* create an output stream to write to the file append the new lines to the end of the file */
+
+    ofstream myfileI ("input.txt", ios::app);
+    if (myfileI.is_open())
+    {
+        myfileI << "\nI am adding a line.\n";
+        myfileI << "I am adding another line.\n";
+        myfileI.close();
+    }
+    else cout << "Unable to open file for writing";
+
+    //create an input stream to read the file ifstream
+        myfileO ("input.txt");
+    //During the creation of ifstream, the file is opened. So we do not have explicitly open the file.
+    if (myfileO.is_open())
+    {
+        while ( getline (myfileO,line) )
+        {
+            cout << line << '\n';
+        }
+        myfileO.close();
+    }
+
+    else cout << "Unable to open file for reading";
+
+    return 0;
+}
+// Exercise:
+
+#include <iostream>
+
+int main()
+{
+    float in1, in2;
+
+    std::cout<<"Enter two numbers:\n";
+    std::cin>>in1;
+    std::cin>>in2;
+    std::cout<<"You entered: "<<in1<<" for in1 and\n";
+    std::cout<<"You entered: "<<in2<<" for in2\n";
+
+    char menuItem;
+    std::cout<<"Enter the operation '+','-','*','/'\n";
+    std::cin>>menuItem;
+    std::cout<<"You entered the "<<menuItem<<" for the operation\n";
+
+    switch(menuItem)
+    {
+        case '+':
+        {
+            std::cout<<"The sum of in1 + in2 is: ";
+            std::cout<<(in1 + in2);"\n";
+                 break;
+        }
+        case '-':
+        {
+            std::cout<<"The difference of in1 minus in2 is: ";
+            std::cout<<(in1 -in2);"\n";
+                 break;
+        }
+        case '*':
+        {
+            std::cout<<"The product of in1 and in2 is: ";
+            std::cout<<(in1*in2);"\n";
+                 break;
+        }
+        case '/':
+        {
+            std::cout<<"The result of in1 divided by in2 is: ";
+            std::cout<<(in1/in2);"\n";
+                 break;
+        }
+        default:
+        {
+            std::cout<<"Illegal operation.\n";
+        }
+
+    }
+    return 0;
+}
+
+// alternatively
+
+#include <iostream>
+
+int main()
+{
+    float in1, in2;
+    char operation;
+    float answer;
+
+    std::cout<<"Enter two numbers:\n";
+    std::cin>>in1;
+    std::cin>>in2;
+    std::cout<<"Enter the operation '+','-','*','/':\n";
+    std::cin>>operation;
+
+    switch(operation)
+    {
+        case('+'):  {
+                    answer=in1 + in2;
+                    break;
+                    }
+         case('-'):  {
+                    answer=in1 - in2;
+                    break;
+                    }
+        case('*'):  {
+                    answer=in1 * in2;
+                    break;
+                    }
+        case('/'):  {
+                    answer=in1 / in2;
+                    break;
+                    }
+        default:
+                    std::cout<<"Illegal operation";
+    }
+
+    std::cout<<in1<<operation<<in2<<" = "<<answer<<"\n";
+
+    return 0;
+}
+//
+//-----------------
+// Example header files:
+//
+/*Goal: practice using header files.
+**.
+**Put in the header file every thing that is related to
+**"how to do a task".
+**Put the "what to do" in the main program.
+*/
+
+// #include <iostream>
+// #include <string>
+
+//using namespace std;
+
+#include "main.hpp" /* note the #include <iostream>
+    ** & #include <string> are called be this #include "main.hpp"
+    ** which contains the call to #include <isotream> and
+    ** #include <string> standard libraries
+    */
+
+int main()
+{
+    cout<<"Hello, I use header files!";
+    return 0;
+}
+//
+// Output
+// Hello, I use header files!
+//
+//-----------------
+// User input Programming
+//
+"g++", "-o main.out", "main.cpp"
+"./main.out", stdin=open("input.txt", "r")
+//
+/*
+The first statement compiles the code and names the executable file main.out. Then main.out is executed using an input file called "input.txt".
+
+These are the commands you would run if you were compiling and executing the program in a terminal. In the Udacity classroom setting clicking the "Test Run" button executes these commands for you.
+*/
+//
+
+
+
+
 //-----------------
 /* Switch Statements
 
@@ -528,149 +730,6 @@ int main()
 }
 //-----------------
 
-// File IO steps
-/*
-- Include the <fstream> library
-- Create a stream (input, output, both)
-     - ifstream myfile; (for reading a file)
-     - ofstream myfile; (for writing to a file)
-     - fstream myfile; (for reading and writing a file)
-- Open the file  myfile.open(“filename”);
-- Write or read the file
-- Close the file myfile.close();
-*/
-
-#include <iostream>
-#include <fstream>
-#include <string>
-using namespace std;
-
-int main ()
-{
-    string line;
-    /* create an output stream to write to the file append the new lines to the end of the file */
-
-    ofstream myfileI ("input.txt", ios::app);
-    if (myfileI.is_open())
-    {
-        myfileI << "\nI am adding a line.\n";
-        myfileI << "I am adding another line.\n";
-        myfileI.close();
-    }
-    else cout << "Unable to open file for writing";
-
-    //create an input stream to read the file ifstream
-        myfileO ("input.txt");
-    //During the creation of ifstream, the file is opened. So we do not have explicitly open the file.
-    if (myfileO.is_open())
-    {
-        while ( getline (myfileO,line) )
-        {
-            cout << line << '\n';
-        }
-        myfileO.close();
-    }
-
-    else cout << "Unable to open file for reading";
-
-    return 0;
-}
-// Exercise:
-
-#include <iostream>
-
-int main()
-{
-    float in1, in2;
-
-    std::cout<<"Enter two numbers:\n";
-    std::cin>>in1;
-    std::cin>>in2;
-    std::cout<<"You entered: "<<in1<<" for in1 and\n";
-    std::cout<<"You entered: "<<in2<<" for in2\n";
-
-    char menuItem;
-    std::cout<<"Enter the operation '+','-','*','/'\n";
-    std::cin>>menuItem;
-    std::cout<<"You entered the "<<menuItem<<" for the operation\n";
-
-    switch(menuItem)
-    {
-        case '+':
-        {
-            std::cout<<"The sum of in1 + in2 is: ";
-            std::cout<<(in1 + in2);"\n";
-                 break;
-        }
-        case '-':
-        {
-            std::cout<<"The difference of in1 minus in2 is: ";
-            std::cout<<(in1 -in2);"\n";
-                 break;
-        }
-        case '*':
-        {
-            std::cout<<"The product of in1 and in2 is: ";
-            std::cout<<(in1*in2);"\n";
-                 break;
-        }
-        case '/':
-        {
-            std::cout<<"The result of in1 divided by in2 is: ";
-            std::cout<<(in1/in2);"\n";
-                 break;
-        }
-        default:
-        {
-            std::cout<<"Illegal operation.\n";
-        }
-
-    }
-    return 0;
-}
-
-// alternatively
-
-#include <iostream>
-
-int main()
-{
-    float in1, in2;
-    char operation;
-    float answer;
-
-    std::cout<<"Enter two numbers:\n";
-    std::cin>>in1;
-    std::cin>>in2;
-    std::cout<<"Enter the operation '+','-','*','/':\n";
-    std::cin>>operation;
-
-    switch(operation)
-    {
-        case('+'):  {
-                    answer=in1 + in2;
-                    break;
-                    }
-         case('-'):  {
-                    answer=in1 - in2;
-                    break;
-                    }
-        case('*'):  {
-                    answer=in1 * in2;
-                    break;
-                    }
-        case('/'):  {
-                    answer=in1 / in2;
-                    break;
-                    }
-        default:
-                    std::cout<<"Illegal operation";
-    }
-
-    std::cout<<in1<<operation<<in2<<" = "<<answer<<"\n";
-
-    return 0;
-}
 */
 //-----------------
 // While loops
