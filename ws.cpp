@@ -1188,6 +1188,46 @@ address character = 0x7fff9ce67cf7
 pointer of givenInt = 32
 pointer of pointer of givenInt = 32
 */
+/* Pointers continued from Udacity C++ for programmers course*/
+
+#include<iostream>
+#include<string>
+
+int main ()
+{
+  int * pointerI;
+  int number;
+  char character;
+  char * pointerC;
+  std::string sentence;
+  std::string *pointerS;
+
+  pointerI = &number;
+  *pointerI = 45;
+
+  pointerC = &character;
+  *pointerC = 'f';
+
+  pointerS = &sentence;
+  *pointerS = "Hey look at me, I know pointers!";
+
+  std::cout << "number = "<<number<<"\n";
+  std::cout<<"character = "<<character<<"\n";
+  std::cout<<"sentence = "<<sentence<<"\n";
+
+  return 0;
+}
+// Output:
+/*
+number = 45
+character = f
+sentence = Hey look at me, I know pointers!
+*/
+//
+
+
+
+
 
 
 
