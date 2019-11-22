@@ -1,7 +1,18 @@
 //
 /*
 Compiling
-Compiling is the process of translating the code that you've written into machine code that processors understand. Every program, regardless of the source language, needs to be compiled in order to execute. This is true even for scripting languages like Python or JavaScript. In these cases, the interpreter (or a similar system) is responsible for compiling code on the fly in a process known as just-in-time compiling. To the user, compilation and execution of scripting languages are effectively a single action. (Of course, the actual process of compiling code at run-time is much more complicated than what was described here in one sentence. It's also very much dependent on the exact language and runtime in question.)
+Compiling is the process of translating the code that you've
+    written into machine code that processors understand. Every
+    program, regardless of the source language, needs to be
+    compiled in order to execute. This is true even for scripting
+    languages like Python or JavaScript. In these cases, the
+    interpreter (or a similar system) is responsible for compiling
+    code on the fly in a process known as just-in-time compiling. To
+    the user, compilation and execution of scripting languages are
+    effectively a single action. (Of course, the actual process of
+    compiling code at run-time is much more complicated than what was
+    described here in one sentence. It's also very much dependent on
+    the exact language and runtime in question.)
 
 Unlike scripted languages, compiled languages treat compilation and execution as two distinct steps. Compiling a program leaves you with an executable (often called a "binary"), a non-human readable file with machine code that the processor can run.
 
