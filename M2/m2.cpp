@@ -70,3 +70,58 @@ Compiling to Executable with a Compiler
     recompile binaries needlessly - you'd need to manually change your gcc calls for the same optimizations. Luckily, there
     are tools that solve both of these problems!
 */
+// Basic Unix commands
+//
+/*
+    ls list contents of current directory
+    pwd list the current working directory
+    cd change directory to... something ../ = means up one level
+*/
+//
+// The command to compile a file is:
+g++ filename.cpp -o nameOfExecutableCode
+
+For example:
+        g++ assignment2.cpp -o a2
+/*
+    g++ is the command to compile
+    assignment2.cpp is the file to be compiled
+    -o is the command that says you want to name the executable file
+    a2 is the name to be given the executable file.
+*/
+//
+#include <iostream>
+#include <stdio.h>
+
+int main()
+{
+    int userInput = 0;
+    int maxNumber = 0;
+    int minNumber = 100;
+    int sumTotal = 0;
+    float average = 0;
+
+    //get the numbers from the user
+    for(int i = 0; i < 3; i++)
+    {
+        std::cout << "Enter a number: ";
+        //scanf("%d", &userInput);
+        scanf("%d", &input.txt);
+        std::cout << userInput << "\n";
+
+        if(userInput > maxNumber)
+        {//the biggest number entered so far is the max number
+            maxNumber = userInput;
+        }
+        if(userInput < minNumber)
+        {//the lowest number entered so far is the min number
+            minNumber = userInput;
+        }
+        sumTotal = sumTotal + userInput;
+    }
+    std::cout << "Maximum number = " << maxNumber << "\n";
+    std::cout << "Minimum number = " << minNumber << "\n";
+    average = sumTotal / 3;
+    std::cout << "Average = " << average << "\n";
+    return 0;
+}
