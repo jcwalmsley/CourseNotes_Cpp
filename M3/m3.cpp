@@ -64,7 +64,7 @@ int main()
     "C++ is a language that requires variable types to be known at compile time.
 
     But, C++ does allow some implicit conversions, for example an integer can be assigned to
-     a float or an integer can be treated as a char."
+    a float or an integer can be treated as a char."
 */
 /*
     Goal: understand C++ implicit variable assignments.
@@ -234,4 +234,138 @@ Inital values: 			        post = 0 pre= 0
 After one postfix and prefix: 	post = 0 pre= 1
 After two postfix and prefix: 	post = 1 pre= 2
 */
+// Example 8 assignment operators
 //
+/*Goal: understand variable assignment operators*/
+
+#include<iostream>
+
+int main()
+{
+    int a = 0;
+    std::cout<<"Variable\t\tOperation\tResult\n";
+    std::cout<<"a = "<<a;
+    a += 2;
+    std::cout<<"\t\t\ta += 2 \t\t a = "<<a<<"\n";
+
+    std::cout<<"a = "<<a<<" : ";
+    a -= 4;
+    std::cout<<"\t\ta -= 4 \t\t a = "<<a<<"\n";
+
+    int b = 3;
+    std::cout<<"a = "<<a<<", b = "<<b<<" : ";
+    a *= b;
+    std::cout<<"\ta *= b \t\t a = "<<a<<"\n";
+
+    std::cout<<"a = "<<a<<", b = "<<b<<" : ";
+    a /= b;
+    std::cout<<"\ta /= b \t\t a = "<<a<<"\n";
+
+
+    return 0;
+}
+// Output
+/*
+Variable		Operation	Result
+a = 0			a += 2 		 a = 2
+a = 2 : 		a -= 4 		 a = -2
+a = -2, b = 3 : 	a *= b 		 a = -6
+a = -6, b = 3 : 	a /= b 		 a = -2
+*/
+//
+// Example 9 debug practice
+//
+/*
+// input.txt
+3
+2
+4
+1
+32
+4
+/*Fix the errors and get an error free compilation and execution.*/
+
+#include<iostream>
+#include<string>
+#include<sstream>
+#include <cmath>
+
+int main()
+{
+    int coeff1, coeff2, constant;
+    int exp1, exp2;
+    int y;
+    int x;
+    //Calculate the value of y for a user defined three term polynomial
+    //Get the coefficients, exponents, and the constants
+    std::cout<<"What is the first coefficient?";
+    std::cin>>coeff1;
+    std::cout<<coeff1<<"\n";
+    std::cout<<"What is the exponent of the first term?";
+    std::cin>>exp1;
+    std::cout<<exp1<<"\n";
+    std::cout<<"What is the second coefficient?";
+    std::cin>>coeff2;
+    std::cout<<coeff2<<"\n";
+    std::cout<<"What is the exponent of the second term?";
+    std::cin>>exp2;
+    std::cout<<exp2<<"\n";
+    std::cout<<"What is the constant?";
+    std::cin>>constant;
+    std::cout<<constant<<"\n";
+    //Print the complete equation
+    std::cout<<"The polynomial we are solving is:\n";
+    std::cout<<"\t"<<coeff1<<"*x^"<<exp1<<" + "<<coeff2<<"*x^"<<exp2<<"+ "<<constant;
+    std::cout<<"\nWhat is the value of x?";
+    std::cin>>x;
+    std::cout<<x<<"\n";
+    //Solve the equation with the given x
+    y = coeff1*pow(x,exp1) + coeff2*pow(x,exp2) + constant;
+    std::cout<<"y = "<<coeff1<<"*"<<x<<"^"<<exp1<<" + "<<coeff2<<"*"<<x<<"^"<<exp2<<"+ "<<constant<<" = "<<y;
+    return 0;
+}
+*/
+// Solution to debug practice
+/*Fix the errors and get an error free compilation and execution.*/
+
+#include<iostream>
+#include<string>
+#include<sstream>
+#include <cmath>
+
+int main()
+{
+    int coeff1, coeff2, constant;
+    int exp1, exp2;
+    int y;
+    int x;
+    //Calculate the value of y for a user defined three term polynomial
+    //Get the coefficients, exponents, and the constants
+    std::cout<<"What is the first coefficient?";
+    std::cin>>coeff1;
+    std::cout<<coeff1<<"\n";
+    std::cout<<"What is the exponent of the first term?";
+    std::cin>>exp1;
+    std::cout<<exp1<<"\n";
+    std::cout<<"What is the second coefficient?";
+    std::cin>>coeff2;
+    std::cout<<coeff2<<"\n";
+    std::cout<<"What is the exponent of the second term?";
+    std::cin>>exp2;
+    std::cout<<exp2<<"\n";
+    std::cout<<"What is the constant?";
+    std::cin>>constant;
+    std::cout<<constant<<"\n";
+    //Print the complete equation
+    std::cout<<"The polynomial we are solving is:\n";
+    std::cout<<"\t"<<coeff1<<"*x^"<<exp1<<" + "<<coeff2<<"*x^"<<exp2<<"+ "<<constant;
+    std::cout<<"\nWhat is the value of x?";
+    std::cin>>x;
+    std::cout<<x<<"\n";
+    //Solve the equation with the given x
+    y = coeff1*pow(x,exp1) + coeff2*pow(x,exp2) + constant;
+    std::cout<<"y = "<<coeff1<<"*"<<x<<"^"<<exp1<<" + "<<coeff2<<"*"<<x<<"^"<<exp2<<"+ "<<constant<<" = "<<y;
+    return 0;
+}
+//
+// End of module!
