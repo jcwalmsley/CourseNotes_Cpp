@@ -63,7 +63,8 @@ int main()
 /*
     "C++ is a language that requires variable types to be known at compile time.
 
-    But, C++ does allow some implicit conversions, for example an integer can be assigned to a float or an integer can be treated as a char.""
+    But, C++ does allow some implicit conversions, for example an integer can be assigned to
+     a float or an integer can be treated as a char."
 */
 /*
     Goal: understand C++ implicit variable assignments.
