@@ -1,13 +1,13 @@
 // Arithmetic operations
 //
 /*
-    When doing math operations you may need to include the cmath library, it contains a number of useful functions.
+    "When doing math operations you may need to include the cmath library, it contains a number of useful functions."
 */
 #include<cmath>
 //
 // Example 1
 //
-// One that you may find useful is: std::pow(base, exponent).
+// "One that you may find useful is: std::pow(base, exponent).""
 // Format
     // std::pow(base, exponent);
 //
@@ -21,12 +21,12 @@ std::pow(3, 5);
 M_PI = 3.14159265358979323846
 //
 /*
-    Goal: practice arithmetic operations in C++ Write a program that calculatesthe volumes of:
+    "Goal: practice arithmetic operations in C++ Write a program that calculatesthe volumes of:
         ** a cube, sphere, cone.
         ** Cube Volume = side^3
         ** Sphere Volume = (4/3) * pi * radius^3
         ** Cone Volume = pi * radius^2 * (height/3)
-        ** Write the values to the console.
+        ** Write the values to the console.""
 */
 // Example 2
 #include<iostream>
@@ -61,12 +61,13 @@ int main()
     The cone volume is 857.985
 */
 /*
-    C++ is a language that requires variable types to be known at compile time.
+    "C++ is a language that requires variable types to be known at compile time.
 
-    But, C++ does allow some implicit conversions, for example an integer can be assigned to a float or an integer can be treated as a char.
+    But, C++ does allow some implicit conversions, for example an integer can be assigned to a float or an integer can be treated as a char.""
 */
-/*Goal: understand C++ implicit variable assignments.
-**Run the program to see implicit variable assignment at work.
+/*
+    Goal: understand C++ implicit variable assignments.
+    Run the program to see implicit variable assignment at work.
  */
 // Example 3
 #include<iostream>
@@ -158,18 +159,15 @@ int main(void)
 0
 */
 // Example 6
-/*Goal: fix the variable types problem.
-**This program outputs the wrong answer
-**even though it compiles and executes without errors.
-**Fix it so that it outputs the correct value.
+/*
+    "Goal: fix the variable types problem.
+    This program outputs the wrong answer
+    even though it compiles and executes without errors.
+    Fix it so that it outputs the correct value."
 */
-/*Goal: fix the variable types problem.
-**This program outputs the wrong answer
-**even though it compiles and executes without errors.
-**Fix it so that it outputs the correct value.
-*/
-/* The output produced by the following program is not correct,
-    make changes it to return the correct answer
+/*
+    "The output produced by the following program is not correct,
+    make changes it to return the correct answer."
 */
 #include <iostream>
 int main(void)
@@ -200,10 +198,11 @@ int main()
 //
 // Post and prefix increment and decrement operators
 //
-/*Goal: fix the variable types problem.
-**This program outputs the wrong answer
-**even though it compiles and executes without errors.
-**Fix it so that it outputs the correct value.
+/*
+    "Goal: fix the variable types problem.
+    This program outputs the wrong answer
+    even though it compiles and executes without errors.
+    Fix it so that it outputs the correct value."
 */
 /*Goal: Practice PreFix and PostFix
 **
