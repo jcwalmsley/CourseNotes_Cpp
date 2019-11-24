@@ -10,8 +10,7 @@
 
     "Hello world, I am ready for C++"
 */
-
-
+//
 #include <iostream>
 
 int main()
@@ -19,4 +18,3 @@ int main()
     std::cout << "Hello world, I am ready for C++";
     return 0;
 }
-//
