@@ -1,0 +1,9 @@
+"Bjarne Stroustrup the creator / original designer and implementer of C++
+
+C++ was designed for demanding applications requiring high performance, low energy consumption, rapid response time and reliability.
+
+C++ is widely used in all types of applications from cameras and cell phones to the Mars Rover, in other words in nearly every industry.
+
+C++ offers a lot of programming features and therefore enables one to learn a lot about programming.
+
+C++ works directly with the computer's hardware and provides very powerful abstraction mechanisms."
