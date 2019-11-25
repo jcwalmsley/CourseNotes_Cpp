@@ -1,3 +1,4 @@
+//
 #include <iostream>
 #include <stdio.h>
 
@@ -10,10 +11,11 @@ int main()
     float average = 0;
 
     //get the numbers from the user
-    for(int i = 0; i < 15; i++)
+    for(int i = 0; i < 3; i++)
     {
         std::cout << "Enter a number: ";
-        scanf("%d", &userInput);
+        //scanf("%d", &userInput);
+        scanf("%d", input.txt);
         std::cout << userInput << "\n";
 
         if(userInput > maxNumber)
@@ -28,7 +30,7 @@ int main()
     }
     std::cout << "Maximum number = " << maxNumber << "\n";
     std::cout << "Minimum number = " << minNumber << "\n";
-    average = sumTotal / 15;
+    average = sumTotal / 3;
     std::cout << "Average = " << average << "\n";
     return 0;
 }
