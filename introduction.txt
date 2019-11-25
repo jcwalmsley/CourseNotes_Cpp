@@ -191,7 +191,7 @@ Assigning numerical values to variables:
 Example:
 variableName = 20196378  // note: numbers aren't enclosed in quotes
 
-------------------------------------------------------------------------
+/------------------
 Sending output to the console:
 
 	Example 1: */
