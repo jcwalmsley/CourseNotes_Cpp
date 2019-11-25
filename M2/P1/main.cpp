@@ -27,7 +27,7 @@ int main()
             minNumber = userInput;
         }
         sumTotal = sumTotal + userInput;
-    }
+    };
     std::cout << "Maximum number = " << maxNumber << "\n";
     std::cout << "Minimum number = " << minNumber << "\n";
     average = sumTotal / 3;
