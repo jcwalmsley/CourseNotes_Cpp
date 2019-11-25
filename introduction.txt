@@ -1,0 +1,92 @@
+Brief History -
+    1979 Bjarne Stroustrup
+
+"Bjarne Stroustrup the creator / original designer and implementer of C++
+
+C++ was designed for demanding applications requiring high performance, low energy consumption, rapid response time and reliability.
+
+C++ is widely used in all types of applications from cameras and cell phones to the Mars Rover, in other words in nearly every industry.
+
+C++ offers a lot of programming features and therefore enables one to learn a lot about programming.
+
+C++ works directly with the computer's hardware and provides very powerful abstraction mechanisms."
+
+Style guides
+    Accepted conventions for how code should be formatted
+
+It's a good idea to become familiar with C++ style guides for code formatting
+    a) modern C++ Coding Guidelines
+    b) Google C++ Style Guidelines
+
+link to C++ guidelines on GitHub https://github.com/isocpp/CppCoreGuidelines
+
+UNDERSTANDING C++ PROGRAMS
+
+
+
+Terms
+
+    Class
+
+    Command Line Interface or BASH terminal for MAC os
+        User interface, used for managing files and directories relating to the C++ program being written
+
+    Compile - command given to compile the code
+        g++ main.cpp -o main.out
+            g++ -  run the C++ compiler
+            main.cpp - the name of the file to compile
+            -o - flag to name the output file
+
+            ./main.out - command given to run the output file main.out
+
+    Executable code or Binary code
+        machine code that is run by the computer hardware
+
+    Object
+
+    Object code
+        code after being pre processed by the compiler
+
+    Instance variables
+
+    Linkage
+        Internal
+
+        External
+
+    Methods
+
+
+    Program structure
+        comments
+            line comment - normally a single line but can be longer
+                starts with //
+            block comment - used when several lines are required
+                start with /*
+                inner lines - optionally can begin with ** or ***
+                end with */
+
+    Namespace
+
+    Output datatype statement
+
+    Preprocessing directives - instructions carried out by the compiler to add or change the raw code in some way before creating the object file code
+
+        Macros
+            define new macro
+            named code = macros
+        Inclusion of files
+            header files
+            standard library files
+            conditional compilation statement
+            other directives
+
+
+
+    Text Editor
+        Application for creating and modifying program code and related text
+
+    Standard library
+
+    Working directory
+        the directory (folder) where the user is currently working
