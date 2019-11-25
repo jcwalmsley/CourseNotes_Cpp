@@ -1,10 +1,8 @@
-// #include <iostream>
-// #include <stdio.h>
 #include "main.hpp"
 
 int main()
 {
-    int userInput = 0;
+    int userInput [3] = 0;
     int maxNumber = 0;
     int minNumber = 100;
     int sumTotal = 0;
