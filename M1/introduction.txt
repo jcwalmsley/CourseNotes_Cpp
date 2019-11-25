@@ -7,3 +7,9 @@ C++ is widely used in all types of applications from cameras and cell phones to 
 C++ offers a lot of programming features and therefore enables one to learn a lot about programming.
 
 C++ works directly with the computer's hardware and provides very powerful abstraction mechanisms."
+
+It's a good idea to become familiar with C++ style guides for code formatting
+    a) modern C++ Coding Guidelines
+    b) Google C++ Style Guidelines
+
+link to C++ guidelines on GitHub https://github.com/isocpp/CppCoreGuidelines
