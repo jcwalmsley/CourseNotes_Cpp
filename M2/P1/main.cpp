@@ -15,7 +15,7 @@ int main()
     for(int i = 0; i < 3; i++)
     {
         std::cout << "Enter a number: ";
-        scanf("%d", &userInput);
+        scanf("%[^\n]s", &userInput); // "%d"
         std::cout << userInput << "\n";
 
         if(userInput > maxNumber)
