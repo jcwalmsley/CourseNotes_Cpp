@@ -13,9 +13,9 @@ int main()
 
     //get the numbers from the user
     for(int i = 0; i < 3; i++)  {
-        std::cout << "Enter a number: ";
+        cout << "Enter a number: ";
         scanf("%d", &userInput);
-        std::cout << userInput << "\n";
+        cout << userInput << "\n";
 
         if(userInput > maxNumber)   { //the biggest number entered so far is the max number
             maxNumber = userInput;
@@ -25,9 +25,9 @@ int main()
         }
         sumTotal = sumTotal + userInput;
     }
-    std::cout << "Maximum number = " << maxNumber << "\n";
-    std::cout << "Minimum number = " << minNumber << "\n";
+    cout << "Maximum number = " << maxNumber << "\n";
+    cout << "Minimum number = " << minNumber << "\n";
     average = sumTotal / 3;
-    std::cout << "Average = " << average << "\n";
+    cout << "Average = " << average << "\n";
     return 0;
 }
