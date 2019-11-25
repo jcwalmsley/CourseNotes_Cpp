@@ -1,5 +1,5 @@
 #include <iostream>
 #include <stdio.h>
-#include "input.txt"
+// #include "input.txt"
 
-using namespace std; 
+using namespace std;
