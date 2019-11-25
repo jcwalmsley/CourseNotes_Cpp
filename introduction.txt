@@ -218,18 +218,4 @@ Sending output to the console:
 	    return 0;
     }
 
-------------------------------------------------------------------------
-String output:
-	#include <iostream>
-
-############## revise next !!!!!!!!!!!!!!!
-using namespace std; // note: using the call to namespace here
-int main()
-{
-	…. some code….;
-cout<<”a string produces character output”; // note std:: has been omitted
-std::cout<<”Hello World”; // prints Hello World to the console
-	return 0;
-}
-
-*/
+/------------------
