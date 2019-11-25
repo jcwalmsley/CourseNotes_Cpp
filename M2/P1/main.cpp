@@ -12,18 +12,15 @@ int main()
     float average = 0;
 
     //get the numbers from the user
-    for(int i = 0; i < 3; i++)
-    {
+    for(int i = 0; i < 3; i++)  {
         std::cout << "Enter a number: ";
-        scanf("%[^\n]d", &userInput); // "%d"
+        scanf("%d", &userInput);
         std::cout << userInput << "\n";
 
-        if(userInput > maxNumber)
-        {//the biggest number entered so far is the max number
+        if(userInput > maxNumber)   { //the biggest number entered so far is the max number
             maxNumber = userInput;
         }
-        if(userInput < minNumber)
-        {//the lowest number entered so far is the min number
+        if(userInput < minNumber)   { //the lowest number entered so far is the min number
             minNumber = userInput;
         }
         sumTotal = sumTotal + userInput;
