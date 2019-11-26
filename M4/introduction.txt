@@ -12,12 +12,3 @@ This module will be covering:
     • for loops
     • while loops
     • switch statements
-
-Including a review of:
-    • Relational Operators / booleans / logical Statements
-        ==
-        !=
-        >
-        <
-        <=
-        <=
