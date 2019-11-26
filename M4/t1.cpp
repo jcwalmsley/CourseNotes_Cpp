@@ -1,16 +1,17 @@
 /*
-    Before discussing the control statements a short review of the
-    boolean, relational operators, logical statements would be advisable.
+    Before discussing the control statements we should briefly review
+    relational operators.
 
-    Relational Operators / booleans / logical Statements
+    Relational Operators
         ==
         !=
         >
         <
         <=
         <=
+
+    A review of relational operators follows:
 */
-/*Goal: learn if-else statements in C++*/
 
 #include<iostream>
 #include<string>
@@ -33,3 +34,11 @@ int main()
     std::cout<<"\n c <= b is "<<TorF[c<=b];
     return 0;
 }
+/*
+    Output
+        a < b is False
+        a > b is True
+        a != b is True
+        c >= b is True
+        c <= b is True
+*/
