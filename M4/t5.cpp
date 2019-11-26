@@ -18,26 +18,26 @@ else
 
 if(boolean expression)
 {
-     //statements to execute if the boolean expression is true
+     //statements to execute if the boolean expression above is true
 }
 else if (boolean expression #2)
 {
-     //statements to execute if the 'else if' boolean expression  #2 is true
+     //statements to execute if the 'else if' boolean expression #2 above is true
 }
 
 else
 {
-     //statements to execute if the boolean expressions
-    //'if' and 'else if'  are false
+    //statements to execute if the boolean expressions
+    //'if' and 'else if' above are false
 }
 
 */
 //
 /*
-    "Exercise: learn if-else statements in C++
-        The user guess in in the input.txt file
-        Change the value to test each of the possible
-        code branches.
+    "Exercise: practice if-else statements
+        Require user to guess and number as input or use
+        input.txt file to provide inputs
+        Use different values to test each possible code branch"
 */
 
 #include<iostream>
