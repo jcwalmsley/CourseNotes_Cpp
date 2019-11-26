@@ -35,9 +35,9 @@ else
 //
 /*
     "Exercise: practice if-else statements
-        Require user to guess and number as input or use
-        input.txt file to provide inputs
-        Use different values to test each possible code branch"
+        Require user to guess an number as input or use
+        an input.txt file to provide inputs. Use different
+        values to test each possible code branch"
 */
 
 #include<iostream>
