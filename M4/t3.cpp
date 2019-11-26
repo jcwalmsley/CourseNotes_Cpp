@@ -6,7 +6,6 @@
     Which means there is an output for each combination of inputs.
     The expression: (A and B and C) or (A and( (not B) or (not C))) = Q
 */
-// /*
 
 #include<iostream>
 
@@ -69,7 +68,6 @@ int main()
 
     return 0;
 }
-//*/
 //
 /*
     Output
