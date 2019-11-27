@@ -1,7 +1,9 @@
 /*
     Practice using if else statements:
     Ask for two user inputs
-    1) Do you want a pet with fur(f), featers(t), or scales(s)? Confirm choice, You want a pet with (user's choice). 2) Do you want the pet to live in water(w), on land(l), or both(b)?
+    1) Do you want a pet with fur(f), featers(t), or scales(s)?
+    Confirm choice, You want a pet with (user's choice).
+    2) Do you want the pet to live in water(w), on land(l), or both(b)?
 
 */
 
