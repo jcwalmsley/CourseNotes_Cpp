@@ -1,5 +1,0 @@
-// for the switch statement "Choose your luxury holiday package"
-//L
-/* for input five  numbers
-    ** 3,4,6,77,8
-*/
