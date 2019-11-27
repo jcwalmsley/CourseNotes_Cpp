@@ -6,6 +6,8 @@
     the program.
 */
 //  Exercise
+//
+/*
 #include <iostream>
 #include<sstream>
 
@@ -21,8 +23,8 @@ int main()
 
     return 0;
 }
-//
-/* Quiz solution:
+*/
+// Quiz solution:
 #include <iostream>
 #include<sstream>
 
@@ -51,8 +53,21 @@ while(guess != target )
     }
     return 0;
 }
+/*
+    Output
+    Guess a number between 0 and 100: 257
+    Your guess 257 was above the accpetalbe range, try again,
+    Guess a number between 0 and 100: -54
+    Your guess-54 was below the accpetable range, try again.
+    Guess a number between 0 and 100: 77
+    Your guess 77 and was too high
+    Guess a number between 0 and 100: 33
+    Your guess was 33 and was too low
+    Guess a number between 0 and 100: 55
+    Your guess 55 was correct. Congratulations!
+*/
 //
-//  Alternatively:
+/*  Alternatively:
 //
 #include <iostream>
 #include<sstream>
