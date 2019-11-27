@@ -1,3 +1,3 @@
 # Course notes: C++ for programmers course
 
-This repository provides practice using Git / GitHub version control system that involves creating projects with multiple directories containing small course programs which are run to reinforce my understanding of the concepts covered in the Udacity C++ for programmers stand alone course. 
+This purpose of creating this repository is to provide sufficient practice with Git / GitHub version control system. It contains multiple directories of small programs used in the stand alone Udacity C++ for programmers course. 
