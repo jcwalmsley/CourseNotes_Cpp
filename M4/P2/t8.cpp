@@ -1,8 +1,11 @@
 /*
-    Demonstrate switch statement:
-    This example does not use a break statement between
-    the possibilities, which means all menu items below the selected
-    one are executed. 
+    Switch statements transfer control to one of several
+    statements, depending on the value of a condition.
+
+    Demonstration of a switch statement:
+        This example doesn't use a break statement between
+        the possibilities, which means all menu items below
+        the selected one are executed.
 */
 
 
