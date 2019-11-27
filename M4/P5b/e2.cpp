@@ -1,11 +1,13 @@
 /*
     Example of do while loop syntax:
 */
-//
-do {
-    /* code */
-} while(/* condition */);
-//
+/*
+do
+{
+    ...some code;
+} while(condition);
+*/
+
 /*
     Example: do while loop:
     Note:
@@ -13,6 +15,8 @@ do {
         on each iteration before the condition is checked
 */
 //
+#include <iostream>
+
 int main()
 {
     int count = 0;
