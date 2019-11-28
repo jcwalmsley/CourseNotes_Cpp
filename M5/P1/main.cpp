@@ -78,3 +78,29 @@ int main()
 
     return 0;
 }
+// Output:
+/*
+interger =
+8
+float =
+6.8
+double =
+7.5432
+character =
+h
+string =
+dad
+integer = 8
+float = 6.8
+double =7.5432
+string = dad
+character = h
+address integer =0x7ffee7e5b6d8
+address float = 0x7ffee7e5b6d4
+address double =0x7ffee7e5b6c8
+address string = 0x7ffee7e5b6b0
+address character = 0x7ffee7e5b6af
+
+pointer of givenInt = 8
+pointer of pointer of givenInt = 8
+*/
