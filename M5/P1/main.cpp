@@ -45,7 +45,9 @@ int main()
     std::cout<<"double = \n";
     std::cin>>givenDouble;
 
-    // using cin.ignore so that the leftover characters in the buffer left over from givenDouble will be ignored.
+    /*  using cin.ignore so that the leftover characters in
+        the buffer left over from givenDouble will be ignored.
+    */
 
     std::cin.ignore();
     std::cout<<"character = \n";
@@ -72,6 +74,6 @@ int main()
     // get values stored using indirection
     std::cout<<"pointer of givenInt = "<<*pointerGivenInt<<"\n";
     std::cout<<"pointer of pointer of givenInt = "<<**pointerPointerGivenInt<<"\n";
-    
+
     return 0;
 }
