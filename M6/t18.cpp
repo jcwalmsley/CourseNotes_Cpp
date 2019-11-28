@@ -36,8 +36,8 @@ int main() {
     return 0;
 }
 /*
-    Output
-    Enter a number: 2
+    Output:
+Enter a number: 2
 2
 Enter a number: 4
 4
