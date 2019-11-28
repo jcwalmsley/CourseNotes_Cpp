@@ -19,7 +19,6 @@ int main() {
         std::cout<<"Enter a number: ";
         std::cin>>userInput;
         std::cout<< userInput <<"\n";
-        }
         if (userInput > maxNumber) {
             maxNumber = userInput;
         }
@@ -33,5 +32,6 @@ int main() {
     std::cout<< "sumTotal = " << sumTotal << "\n";
     average = (sumTotal / 15.0);
     std::cout<< "Average = " << average << "\n";
+
     return 0;
 }
