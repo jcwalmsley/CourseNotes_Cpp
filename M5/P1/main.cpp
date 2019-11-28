@@ -31,7 +31,7 @@ int main()
     std::string givenString;
     char givenChar;
     int *pointerGivenInt;
-    int **pionterPointerGivenInt;
+    int **pointerPointerGivenInt;
 
     pointerGivenInt = &givenInt;
     pointerPointerGivenInt = &pointerGivenInt;
