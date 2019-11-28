@@ -14,8 +14,26 @@
     int * pointerToA = &a;
     float * pointerToA = &a;
 */
-// If we were to print pointerToA, we'd obtain the address of 'a':
-std::cout << "pointerToA stores " << pointerToA << '\n';
+#include <iostream>
 
-// If we want to know what is stored in this address, we can dereference pointerToA:
-std::cout << "pointerToA points to " << * pointerToA << '\n';"
+int main()
+{
+    int a = 54;
+    std::cout<<"a = "<<a<<"\n";
+    std::cout<<"address of a is at &a = "<< &a<<"\n";
+    int * pointerToA = &a;
+
+    // If we were to print pointerToA, we'd obtain the address of 'a':
+    std::cout << "pointerToA stores " << pointerToA << '\n';
+
+    // If we want to know what is stored in this address, we can dereference pointerToA:
+    std::cout << "pointerToA points to " << * pointerToA << '\n';
+    return 0;
+}
+//
+/*
+    Output
+    address of a is at &a = 0x7ffeeb4e66e8
+    pointerToA stores 0x7ffeeb4e66e8
+    pointerToA points to 54
+*/
