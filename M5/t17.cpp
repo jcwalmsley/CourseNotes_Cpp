@@ -30,3 +30,9 @@ int main ()
   return 0;
 }
 //
+// Output
+/*
+number = 45
+character = f
+sentence = Hey look at me, I know pointers!
+*/
