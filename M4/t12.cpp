@@ -4,7 +4,7 @@
         a) while loop // standard format
         b) do while loop
 */
-// Syntac for the standard while loop:
+// Syntax for the standard while loop:
 while (/* condition */)
 {
     /* code */
