@@ -70,7 +70,7 @@ int main()
     std::cout<<"address float = "<<&givenFloat<<"\n";
     std::cout<<"address double ="<<&givenDouble<<"\n";
     std::cout<<"address string = "<<&givenString<<"\n";
-    std::cout<<"address character = "<<&givenChar<<"\n";
+    std::cout<<"address character = "<< (void *) &givenChar<<"\n\n";
 
     // get values stored using indirection
     std::cout<<"pointer of givenInt = "<<*pointerGivenInt<<"\n";
