@@ -27,4 +27,8 @@ int main()
     std::cout<<"address of a is at &a = "<< &a<<"\n";
     return 0;
 }
-//
+// Output
+/*
+a = 54
+address of a is at &a = 0x7ffee58076e8
+*/
