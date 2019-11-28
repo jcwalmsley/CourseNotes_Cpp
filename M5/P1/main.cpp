@@ -45,7 +45,8 @@ int main()
     std::cout<<"double = \n";
     std::cin>>givenDouble;
 
-    /*  using cin.ignore so that the leftover characters in
+    /*
+        using cin.ignore so that the leftover characters in
         the buffer left over from givenDouble will be ignored.
     */
 
