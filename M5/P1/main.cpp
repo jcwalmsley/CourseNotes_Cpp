@@ -59,9 +59,9 @@ int main()
     std::getline (std::cin,givenString);
 
     // values
-    std::count<<"interger = "<<givenInt<<"\n";
+    std::count<<"integer = "<<givenInt<<"\n";
     std::cout<<"float = "<<givenFloat<<"\n";
-    std::Cout<<"double ="<<givenDouble<<"\n";
+    std::cout<<"double ="<<givenDouble<<"\n";
     std::cout<<"string = "<<givenString<<"\n";
     std::cout<<"character = "(char)givenChar<<"\n";
 
