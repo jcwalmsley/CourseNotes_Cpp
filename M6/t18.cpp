@@ -35,3 +35,40 @@ int main() {
 
     return 0;
 }
+/*
+    Output
+    Enter a number: 2
+2
+Enter a number: 4
+4
+Enter a number: 6
+6
+Enter a number: 8
+8
+Enter a number: 2
+2
+Enter a number: 5
+5
+Enter a number: 4
+4
+Enter a number: 9
+9
+Enter a number: 5
+5
+Enter a number: 3
+3
+Enter a number: 7
+7
+Enter a number: 5
+5
+Enter a number: 2
+2
+Enter a number: 8
+8
+Enter a number: 4
+4
+Maximum number = 9
+Minimum number = 2
+sumTotal = 74
+Average = 4.93333
+*/
