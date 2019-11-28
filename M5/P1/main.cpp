@@ -66,7 +66,7 @@ int main()
     std::cout<<"character = "(char)givenChar<<"\n";
 
     // memory addresses
-    std::cout<<"address integer ="<<&givenInteger<<"\n";
+    std::cout<<"address integer ="<<&givenInt<<"\n";
     std::cout<<"address float = "<<&givenFloat<<"\n";
     std::cout<<"address double ="<<&givenDouble<<"\n";
     std::cout<<"address string = "<<&givenString<<"\n";
