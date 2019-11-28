@@ -5,7 +5,7 @@
 */
 #include <iostream>
 #include <stdio.h>
-#include "input.txt"
+
 
 int main() {
     int userInput = 0;
