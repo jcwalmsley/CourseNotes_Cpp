@@ -3,21 +3,20 @@
     Print out the sum and average of the five numbers.
 */
 //
+#include "main.hpp"
 
 int main()
 {
-    std::string input;
     float input;
-    float sum;
+    float sum = 0;
 
     for(int i=0;i<5;i++)
     {
-        std::cout<<"Enter five numbers?\n";
-        std::getline (std::cin, input);
-        std::stringstream(string) >> input;
+        std::cout<<"What is the next number?\n";
         std::cin>>input;
         sum = sum + input;
-    }
+    }//end of for loop
+
     std::cout<<"Sum = "<<sum<<"\n";
     std::cout<<"Average = "<<sum/5<<"\n";
     return 0;
