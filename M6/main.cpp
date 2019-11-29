@@ -2,11 +2,12 @@
     Practice array manipulation in C++:
 
     Instruct user to input 40 integers.
-    Create an array with input.
+    Create array with integer input.
     Print array in order entered.
     Print array in reverse order.
+    Sort array.
     Print sorted array in ascending order.
-    Each printed element should be separated by an empty space.
+    note: printed elements separated by a space.
     (ie., if array = [3,4,55]; output would be: 3 4 55)
 */
 
