@@ -1,0 +1,11 @@
+Choose your holiday package:
+L: luxury package
+S: standard package
+B: basic package L
+The L package includes:
+	Spa Day
+	Sailboat Tour
+	City Tour
+	Complimentary Happy Hour
+	Airport Transfers
+	Complimentary Breakfast
