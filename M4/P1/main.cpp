@@ -1,9 +1,10 @@
 /*
     Practice using if else statements:
-    Ask for two user inputs
+    Ask user for two inputs
     1) Do you want a pet with fur(f), featers(t), or scales(s)?
-    Confirm choice, You want a pet with (user's choice).
+    Confirm user's choice, print "You want a pet with ("skin").
     2) Do you want the pet to live in water(w), on land(l), or both(b)?
+    Confirm user's choice of, "You want a pet that live on land and water"
 
 */
 
@@ -24,7 +25,7 @@ int main()
 
    std::cout<<"Would you like an animal with fur(f), feathers(t), or scales(s)?";
    std::cin>>skin;
-   std::cout<<skin<<"\n";
+   std::cout<<"You want an animal with "<<skin<<"\n";
 
    //Use if-else statements to control program flow
 
@@ -40,7 +41,7 @@ int main()
     {
         std::cout<<"Would you like an animal that lives in water(w), land(l), or both(b)?";
         std::cin>>location;
-        std::cout<<location<<"\n";
+        std::cout<<"You want an animal that live on: "<<location<<"\n";
     }
 
    //Use if-else statements to control program flow
