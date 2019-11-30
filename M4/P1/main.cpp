@@ -23,40 +23,40 @@ int main()
    char f,t,s,w,l,b;
    char dog, bird, fish, gecko, frog;
 
-   std::cout<<"Would you like an animal with fur(f), feathers(t), or scales(s)?";
+   std::cout<<"Would you like an animal with fur(f), feathers(t), or scales(s) ?";
    std::cin>>skin;
-   std::cout<<"You want an animal with "<<skin<<"\n";
+   std::cout<<"You want an animal with "<<skin<< endl;
 
    //Use if-else statements to control program flow
 
    if(skin == 'f')
     {
-        std::cout<<"Get a dog"<<dog<<"\n";
+        std::cout<<"Get a dog "<<dog<< endl;
     }
     else if (skin == 't')
     {
-        std::cout<<"Get a bird"<<bird<<"\n";
+        std::cout<<"Get a bird "<<bird<< endl;
     }
     else if (skin == 's')
     {
-        std::cout<<"Would you like an animal that lives in water(w), land(l), or both(b)?";
+        std::cout<<"Would you like an animal that lives in water(w), land(l), or both(b) ?";
         std::cin>>location;
-        std::cout<<"You want an animal that live on: "<<location<<"\n";
+        std::cout<<"You want an animal that lives on: "<<location<<"\n";
     }
 
    //Use if-else statements to control program flow
 
    if(location == 'w')
    {
-   std::cout<<"Get a fish"<<fish<<"\n";
+   std::cout<<"Get a fish "<<fish<< endl;
    }
    else if(location == 'l')
    {
-   std::cout<<"Get a gecko"<<gecko<<"\n";
+   std::cout<<"Get a gecko "<<gecko<< endl;
    }
    else if(location == 'b')
    {
-   std::cout<<"Get a frog"<<frog<<"\n";
+   std::cout<<"Get a frog "<<frog<< endl;
    }
    return 0;
 }
