@@ -61,7 +61,7 @@ int main()
     }
     return 0;
 }
-
+//-----------------
 /* Output =
 
     What is your favorite winter sport?:
@@ -73,5 +73,3 @@ int main()
     Skiing?! Sounds dangerous!
 
 */
-//
-//-----------------
