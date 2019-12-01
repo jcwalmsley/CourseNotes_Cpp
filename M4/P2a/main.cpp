@@ -1,40 +1,6 @@
 /*
-    Switch statements transfer control to one of several
-    statements, depending on the value of a condition.
-
-    Possible formats for a switch statement shown below:
+    Using switch statements:
 */
-//-----------------
-/* Example 1:
-switch(1) {
-case 1 : cout << '1'; // prints "1",
-case 2 : cout << '2'; // then prints "2"
-}
-// Example 2:
-switch(1) {
-case 1 : cout << '1'; // prints "1"
-         break;       // and exits the switch
-case 2 : cout << '2';
-         break;
-}
-
-//-----------------
-// Example 2 of switch expressions:
-switch(expression)
-{
-     case constant-expression : statements;
-                               break; (this is optional);
-     case constant-expression : statements;
-                               break; (this is optional);
-     ...
-
-     default : //optional
-        statements;
-}
-*/
-/*
-    Practice using switch statements
-.*/
 
 #include <iostream>
 
