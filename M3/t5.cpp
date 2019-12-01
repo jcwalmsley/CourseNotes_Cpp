@@ -1,40 +1,37 @@
-// Example 5
+// Post and prefix increment and decrement operators
+//
 /*
-    "Exercise: fix the variable types problem.
+    "Goal: fix the variable types problem.
     This program outputs the wrong answer
     even though it compiles and executes without errors.
     Fix it so that it outputs the correct value."
 */
-/*
-    "The output produced by the following program is not correct,
-    make changes it to return the correct answer."
+/*Goal: Practice PreFix and PostFix
+**
 */
-#include <iostream>
-int main(void)
-{
-    int numerator = 4;
-    int denominator = 5;
+// Example 6
+//
+#include<iostream>
 
-    int answer = numerator / denominator;
-    std::cout<<"answer = "<<answer;
-    return 0;
-}
-/* Output
-0
-*/
-//
-// Solution:
-//
-#include <iostream>
+using namespace std;
+
 int main()
 {
-    float numerator = 4;
-    float denominator = 5;
-
-    float answer = numerator / denominator;
-    std::cout<<"answer = "<<answer;
+    int a, b = 0;
+    int post, pre = 0;
+    cout<<"Inital values: \t\t\tpost = "<<post<<" pre= "<<pre<<"\n";
+    post = a++;
+    pre = ++b;
+    cout<<"After one postfix and prefix: \tpost = "<<post<<" pre= "<<pre<<"\n";
+    post = a++;
+    pre = ++b;
+    cout<<"After two postfix and prefix: \tpost = "<<post<<" pre= "<<pre<<"\n";
     return 0;
 }
-/* Output
- 0.8
+//
+// Output
+/*
+Inital values: 			        post = 0 pre= 0
+After one postfix and prefix: 	post = 0 pre= 1
+After two postfix and prefix: 	post = 1 pre= 2
 */

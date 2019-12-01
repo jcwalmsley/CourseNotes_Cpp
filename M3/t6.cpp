@@ -1,37 +1,38 @@
-// Post and prefix increment and decrement operators
+// Example 7 assignment operators
 //
-/*
-    "Goal: fix the variable types problem.
-    This program outputs the wrong answer
-    even though it compiles and executes without errors.
-    Fix it so that it outputs the correct value."
-*/
-/*Goal: Practice PreFix and PostFix
-**
-*/
-// Example 6
-//
-#include<iostream>
+/*Goal: understand variable assignment operators*/
 
-using namespace std;
+#include<iostream>
 
 int main()
 {
-    int a, b = 0;
-    int post, pre = 0;
-    cout<<"Inital values: \t\t\tpost = "<<post<<" pre= "<<pre<<"\n";
-    post = a++;
-    pre = ++b;
-    cout<<"After one postfix and prefix: \tpost = "<<post<<" pre= "<<pre<<"\n";
-    post = a++;
-    pre = ++b;
-    cout<<"After two postfix and prefix: \tpost = "<<post<<" pre= "<<pre<<"\n";
+    int a = 0;
+    std::cout<<"Variable\t\tOperation\tResult\n";
+    std::cout<<"a = "<<a;
+    a += 2;
+    std::cout<<"\t\t\ta += 2 \t\t a = "<<a<<"\n";
+
+    std::cout<<"a = "<<a<<" : ";
+    a -= 4;
+    std::cout<<"\t\ta -= 4 \t\t a = "<<a<<"\n";
+
+    int b = 3;
+    std::cout<<"a = "<<a<<", b = "<<b<<" : ";
+    a *= b;
+    std::cout<<"\ta *= b \t\t a = "<<a<<"\n";
+
+    std::cout<<"a = "<<a<<", b = "<<b<<" : ";
+    a /= b;
+    std::cout<<"\ta /= b \t\t a = "<<a<<"\n";
+
+
     return 0;
 }
-//
 // Output
 /*
-Inital values: 			        post = 0 pre= 0
-After one postfix and prefix: 	post = 0 pre= 1
-After two postfix and prefix: 	post = 1 pre= 2
+Variable		Operation	Result
+a = 0			a += 2 		 a = 2
+a = 2 : 		a -= 4 		 a = -2
+a = -2, b = 3 : 	a *= b 		 a = -6
+a = -6, b = 3 : 	a /= b 		 a = -2
 */
