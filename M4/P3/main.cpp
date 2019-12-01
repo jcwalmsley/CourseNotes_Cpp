@@ -1,5 +1,5 @@
 /*
-    Program demonstrating break statements betwee cases.
+    Program demonstrating break statements between cases.
     1) Have user input two numbers (floats)
     2) Have user choose whether to:
         1 add
@@ -15,15 +15,6 @@
             The user enters: 4 5 +
             The program will output: 4 + 5 = 9
 
-*/
-//
-/*Now I would like you to do a switch statement with breaks
-**between the cases. Create a program that asks the user for
-**two float numbers. Then asks the user if they would like to:
-**add the numbers, subtract the numbers, multiply the numbers,
-**divide the numbers.
-**The program should then print the numbers with the chosen
-**operation and the solution.
 */
 
 #include <iostream>
