@@ -1,1 +1,3 @@
-Module 4 introduces the topic of control flow and will cover for loops, while loops, do while loops, and infinite while loops
+Module 4 introduces the topic of control flow
+and will cover for loops, while loops, do while loops,
+and infinite while loops
