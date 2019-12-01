@@ -1,18 +1,28 @@
 /*
     Practice using if else statements:
-    Ask user for two inputs
+    Ask user for two inputs:
+
     1) Do you want a pet with fur(f), featers(t), or scales(s)?
-    Confirm user's choice, print "You want a pet with ("skin").
+        Confirm user's choice, print out:
+
+            "You want a pet with ("skin").
+
     2) Do you want the pet to live in water(w), on land(l), or both(b)?
-    Confirm user's choice of, "You want a pet that live on land and water"
+        Confirm user's choice, print out:
+
+            "You want a pet that live on land and water"
+
+    3) Finally, print out:
+
+            "Get a "animal".
 
 */
 
 /*
-    Using if-else statements in C++
-    Write a program prompting user with two
+    Using "if else" conditional..statements in C++
+    write a program that prompts users with two
     questions that will result in the selection
-    of a pet"
+    / reccomendation of a type pet"
 */
 //
 #include<iostream>
