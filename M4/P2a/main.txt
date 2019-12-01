@@ -1,0 +1,44 @@
+/*
+    Switch statements, transfer control to one of several
+    statements, depending on the value of a condition.
+
+    Possible formats for switch statements:
+*/
+//-----------------
+//
+#include <iostream>
+//
+int main()
+{
+    // Example 1:
+    switch(menu item) {
+    case 1 : cout << '1'; // prints "1",
+    case 2 : cout << '2'; // then prints "2"
+    }
+    // Example 2:
+    switch(menu item) {
+    case 1 : cout << '1'; // prints "1"
+        break;  // and exits the switch
+    case 2 : cout << '2';
+        break;  // and exits the switch
+}
+//
+//-----------------
+// Other examples of switch statments:
+//
+#include <iostream>
+//
+int main()
+{
+    // Example 3:
+    switch(expression)
+    {
+        case constant-expression : statements;
+            break; (this is optional);
+        case constant-expression : statements;
+            break; (this is optional);
+        ...
+        default : //optional statements;
+    }
+}
+//
