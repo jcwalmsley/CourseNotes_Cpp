@@ -1,0 +1,4 @@
+Enter 2 numbers:
+Enter the operation '+','-','*','/':
+You choose operation -
+5-6 = -1
