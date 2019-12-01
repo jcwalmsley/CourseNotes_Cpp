@@ -1,7 +1,5 @@
 /*
     Example 2 switch statements
-
-
 */
 #include <iostream>
 
