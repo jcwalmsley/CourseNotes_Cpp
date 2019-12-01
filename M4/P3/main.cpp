@@ -1,4 +1,4 @@
-/*
+ /*
     Program demonstrating break statements between cases.
     1) Have user input two numbers (floats)
     2) Have user choose whether to:
@@ -14,7 +14,6 @@
     For example:
             The user enters: 4 5 +
             The program will output: 4 + 5 = 9
-
 */
 
 #include <iostream>
