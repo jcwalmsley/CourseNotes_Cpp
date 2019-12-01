@@ -1,0 +1,2 @@
+This directory shows examples of commonly used file
+types in a C++ program
