@@ -1,15 +1,16 @@
-/* Style guides for code formatting
+/* It's a good idea to become familiar with C++ style guides for code formatting
     a) modern C++ Coding Guidelines
     b) Google C++ Style Guidelines
 */
 
 //-----------------
-// Example: C++ Hello World program
-/*write a C++ program that outputs the following statement:
-*** "Hello world, I am ready for C++"
+// Example 1: C++ Hello World program
+/*
+    "Write a C++ program that outputs the following statement:"
+
+    "Hello world, I am ready for C++"
 */
-
-
+//
 #include <iostream>
 
 int main()
@@ -17,16 +18,18 @@ int main()
     std::cout << "Hello world, I am ready for C++";
     return 0;
 }
-
+//
 
 /*  #include "main.hpp" // use this to include a header file
     where you can place all the preprocessing directive statements
     g++  main.cpp -o main.out use the command above to compile your
     code and send output to the console
-*/ comments either by lines or by blocks
+*/
+
+// comments either by lines or by blocks
 
 //-----------------
-// Example: using namespace std;
+// Example 2: using namespace std;
 
 /*Use the "namespace" keyword to simplify typing by "using
     namespace std;" its possible to use this just before the
@@ -84,7 +87,7 @@ int main() {
 }
 //
 //-----------------
-/* Example: define constants
+/* Example 3: define constants
 Goal: use constant variables */
 //
 #include <iostream>
@@ -100,7 +103,7 @@ int main()
 }
 
 //-----------------
-/* Example: enumerated constants
+/* Example 4: enumerated constants
     ** users can create a new variable type using the format below and assign a specific number of elements to the new variable type
 */
 //
