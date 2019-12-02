@@ -50,14 +50,14 @@ int main()
         the C++17 init-statement syntax can be helpful when there is
         no implicit conversion to integral or enumeration type
     */
-    /*
+    /
     switch (Device dev = get_device(); dev.state()) // Error: Device & dev not declared
     {
         case SLEEP: /.../ break;
         case READY: /.../ break;
         case BAD: /.../ break;
     }
-    */
+    /
     /*
         pathological examples, the statement doesn't have to
         be a compound statement
