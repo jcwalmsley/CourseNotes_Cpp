@@ -27,6 +27,7 @@ int main()
     std::cout<<"Enter 2 numbers:\n";
     std::cin>>in1;
     std::cin>>in2;
+    std::cout<<"You entered "<<in1<<" & "<<in2<<"\n";    
     std::cout<<"Enter the operation '+','-','*','/':\n";
     std::cin>>operation;
     std::cout<<"You choose operation "<<operation<<"\n";
