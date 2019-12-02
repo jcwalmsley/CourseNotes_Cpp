@@ -10,7 +10,7 @@
 
 */
 // exercise instructions with given code
-
+/*
 #include <iostream>
 #include<sstream>
 
@@ -26,6 +26,7 @@ int main()
 
     return 0;
 }
+*/
 // program exercise solution:
 //
 #include <iostream>
