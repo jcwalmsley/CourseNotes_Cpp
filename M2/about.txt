@@ -86,8 +86,8 @@ Compiling to Executable with a Compiler
         For example:
 
         g++ assignment2.cpp -o a2   // g++ is the command to compile
-                                    // -o is the command that says you want to name the executable file
                                     // assignment2.cpp is the file to be compiled
+                                    // -o is the command that says you want to name the executable file
                                     // a2 is the name to be given the executable file.
 
     The command to execute or run the file is:
