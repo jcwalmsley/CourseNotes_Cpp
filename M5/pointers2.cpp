@@ -15,13 +15,13 @@ int main ()
   std::string *pointerS;
 
   pointerI = &number;
-  *pointerI = 45;
+  *pointerI = 13;
 
   pointerC = &character;
   *pointerC = 'f';
 
   pointerS = &sentence;
-  *pointerS = "Hey look at me, I know pointers!";
+  *pointerS = "Pointers are fun to work with.";
 
   std::cout << "number = "<<number<<"\n";
   std::cout<<"character = "<<character<<"\n";
@@ -32,7 +32,7 @@ int main ()
 //
 // Output
 /*
-number = 45
+number = 13
 character = f
-sentence = Hey look at me, I know pointers!
+sentence = Pointers are fun to work with.
 */

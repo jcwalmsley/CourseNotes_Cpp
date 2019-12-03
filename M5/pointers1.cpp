@@ -3,7 +3,7 @@
     with the ampersand sign; for example: &variableName
 
     Given:
-    int a = 54; // here, the value 54, is assigned to "a".
+    int a = 82; // here, the value 82, is assigned to "a".
 
     If we want to know the memory location of "a", then we can use
     the following syntax to return the address of "a" to the console.
@@ -12,17 +12,17 @@
 
     //-------------
 
-    When assigning a variableName to the addresses of another variable we create
-    what is called a pointer.
+    Assigning a variableName to the addresses of another variable creates
+    a pointer.
 
     If we assign a variableName such as:
     bar = &a; // where "&a" is the address where the varialbe named "a" is stored;
 
     then the variableName bar, becomes the pointer to the computer's physical
-    memory location or address of the integer 54 which has previously been assigned
+    memory location or address of the integer 82 which has previously been assigned
     the variableName of "a".
 
-    The following, is a sample program using pointers.
+    A sample program using pointers follows:
 */
 //
 
@@ -30,13 +30,13 @@
 
 int main()
 {
-    int a = 54;
+    int a = 82;
     std::cout<<"a = "<<a<<"\n";
     std::cout<<"The address location of a is &a and is = "<< &a<<"\n";
     return 0;
 }
 // Output
 /*
-a = 54
+a = 82
 address of a is at &a = 0x7ffee58076e8
 */
