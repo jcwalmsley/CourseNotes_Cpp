@@ -78,16 +78,25 @@ Compiling to Executable with a Compiler
     cd change directory to... something ../ = means up one level
 */
 //
-// The command to compile a file is:
-g++ filename.cpp -o nameOfExecutableCode
-
-For example:
-        g++ assignment2.cpp -o a2
 /*
-    g++ is the command to compile
-    assignment2.cpp is the file to be compiled
-    -o is the command that says you want to name the executable file
-    a2 is the name to be given the executable file.
+    The command syntax to compile a file is:
+
+        g++ filename.cpp -o nameOfExecutableCode
+
+        For example:
+
+        g++ assignment2.cpp -o a2   // g++ is the command to compile
+                                    // -o is the command that says you want to name the executable file
+                                    // assignment2.cpp is the file to be compiled
+                                    // a2 is the name to be given the executable file.
+
+    The command to execute or run the file is:
+
+        ./a2  // this executes program contained in file a2 and outputs the results to console
+        or
+        ./a2 <input.txt // this command does the above while getting its input from input.txt
+        or
+        ./a2 <input.txt >out.txt // this repeats the above sending all output to out.txt instead of console
 */
 //
 #include <iostream>
