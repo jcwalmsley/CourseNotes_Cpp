@@ -23,8 +23,9 @@ retVariableType  functionName(parameter1, parameter2, ...,parameterN)
 //
 /*
     For example:
-    The following function accepts no parameters and returns no value.
-    When it is called in a program, it will execute the statement
+    This function has no parameters or return values.
+    When called, it outputs the string statement "Hello World!"
+    to the console.
 */
 //
 void printValues()
@@ -32,11 +33,10 @@ void printValues()
     std::cout<<"Hello World!";
 }
 // Output:
-
-std::cout<<"Hello World!";
+"Hello World!"
 
 //-----------------
-//  Syntax of declarations: note declaration ends with semi-colons.
+//  Syntax, declarations: note declarations end with semi-colons.
 
 //  Example:
 returnVariableType  functionName(parameter1, parameter2, ...,parameterN);
@@ -45,10 +45,10 @@ returnVariableType  functionName(parameter1, parameter2, ...,parameterN);
 /*
     Calling functions:
 
-    Call functions with the function name, including any parameters specified in the
-    declaration and function definition in parenthesis separated by commas.
+    Call a functions with the function name, including any parameters specified in the
+    declaration and definition in parenthesis separated by commas.
 */
-//  For example:
+//  Example:
 //
 int main()
 {
