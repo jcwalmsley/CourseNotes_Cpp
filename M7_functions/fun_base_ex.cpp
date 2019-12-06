@@ -9,6 +9,7 @@
 #include<sstream>
 #include<stdio.h>
 
+using namespace std;
 
 void printMessage();
 
@@ -21,7 +22,7 @@ int main()
 
 void printMessage()
 {
-    std::cout<<"Example, basic function with no parameters or return values."std::endl;
+    cout<<"Example, basic function with no parameters or return values."endl;
 }
 
 /*
