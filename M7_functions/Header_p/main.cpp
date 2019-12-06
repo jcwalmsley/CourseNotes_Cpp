@@ -11,12 +11,11 @@
     When using a .h or .hpp header file, include the following statement
     in the main.cpp file:
 
-    #include "main.hpp" /* when the program compiles the linker will link
+    #include "main.hpp" when the program compiles the linker will link
                         main.cpp with the printProduct() function declaration
                         and definition located in the main.hpp file so that
-                        the program will execute. */
-*/
-/*
+                        the program will execute.
+
     The example below is a non executing program referencing a hypothetical header
     file containing the printProduct() function declaration and printProduct()
     function definition.
@@ -43,4 +42,3 @@ int main() //
     printProduct(n1, n2, product);
     return 0;
 }
- 
