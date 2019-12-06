@@ -39,7 +39,8 @@ int main() //
 
     product = n1 * n2;
 
+    // call to functions declared and defined main.hpp
     printProduct(n1, n2, product);
     return 0;
 }
-  
+ 
