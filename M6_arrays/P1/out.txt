@@ -1,0 +1,19 @@
+Enter a number: 2
+Enter a number: 4
+Enter a number: 6
+Enter a number: 8
+Enter a number: 0
+Enter a number: 9
+Enter a number: 7
+Enter a number: 5
+Enter a number: 3
+Enter a number: 1
+Enter a number: 65
+Enter a number: 47
+Enter a number: 83
+Enter a number: 29
+Enter a number: 10
+Maximum number = 83
+Minimum number = 0
+sumTotal = 279
+Average = 18.6
