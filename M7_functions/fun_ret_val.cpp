@@ -1,75 +1,77 @@
 /*
-    Functions with return values require the declaration and definition state the variable type of the return.
-    The syntax is:
+    Function declarations and definitions of functions that return a value
+    must declare the datatype of the values being returned in the function
+    declarations and definitions.
 */
-//
-returnVariableType functionName(parameter1, parameter2, ..., parameterN)
+//  Example syntax below:
+
+returnVariableType functionName(param1, param2, ..., paramN)
 {
      variarble type returnVariable;
      statement(s);
      return variable;
 }
-// For example:
+// See example 1 below:
 
-int calculateSum(int m1, int m2)
+int calculateSum(int n1, int n2)
 {
      int sum;
-     sum = m1 + m2;
+     sum = n1 + n2;
      return sum;
 }
 
-//We can, of course, shorten this to the more succinct:
+// Alternativelt see example 2 below:
 
-int calculateSum(int m1, int m2)
+int calculateSum(int n1, int n2)
 {
-     return m1 + m2;
+     return n1 + n2;
 }
 
 /*
-    Goal: practice returning values from functions
+    Exercise: familiarize with functions that return values
 */
 //
 #include<iostream>
 using namespace std;
 
-float add(float m1, float m2);
-float sub(float m1, float m2);
-float mult(float m1, float m2);
-float div(float m1, float m2);
+float add(float n1, float n2);
+float sub(float n1, float n2);
+float mult(float n1, float n2);
+float div(float n1, float n2);
 
 int main()
 {
-    float m1 = 4.0;
-    float m2 = 3.5;
+    float n1 = 7.1;
+    float n2 = 5.2;
     float answer;
 
-    answer = add(m1, m2);
-    cout<<m1<<"+"<<m2<<" = "<<answer<<"\n";
-
-    cout<<m1<<"-"<<m2<<" = "<<sub(m1,m2)<<"\n";
-    cout<<m1<<"*"<<m2<<" = "<<mult(m1,m2)<<"\n";
-    cout<<m1<<"/"<<m2<<" = "<<div(m1,m2)<<"\n";
+    answer = add(n1, n2);
+    cout<<n1<<"+"<<n2<<" = "<<answer<<"\n";
+    //alternatively return values using math functions
+    cout<<n1<<"-"<<n2<<" = "<<sub(n1,n2)<<"\n";
+    cout<<n1<<"*"<<n2<<" = "<<mult(n1,n2)<<"\n";
+    cout<<n1<<"/"<<n2<<" = "<<div(n1,n2)<<"\n";
     return 0;
 }
 
-float add(float m1, float m2)
+float add(float n1, float n2)
 {
-    return m1 + m2;
+    return n1 + n2;
 }
 
-float sub(float m1, float m2)
+float sub(float n1, float n2)
 {
-    return m1 - m2;
+    return n1 - n2;
 }
 
-float mult(float m1, float m2)
+float mult(float n1, float n2)
 {
-    return m1 * m2;
+    return n1 * n2;
 }
 
-float div(float m1, float m2)
+float div(float n1, float n2)
 {
-    return m1 / m2;
+    return n1 / n2;
 }
 
   
