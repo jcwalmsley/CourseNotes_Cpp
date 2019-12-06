@@ -20,7 +20,7 @@ int calculateSum(int n1, int n2)
      return sum;
 }
 
-// Alternatively see example 2 below:
+// Alternatively example 2 below:
 
 int calculateSum(int n1, int n2)
 {
@@ -28,7 +28,11 @@ int calculateSum(int n1, int n2)
 }
 
 /*
-    Exercise: familiarize with functions that return values
+    Exercise: familiarize with functions that return values.
+
+    Note: to execute this program move it to a new file in a
+    new directory so that it is separated from the code examples
+    above.
 */
 //
 #include<iostream>
@@ -47,9 +51,11 @@ int main()
 
     answer = add(n1, n2);
     cout<<n1<<"+"<<n2<<" = "<<answer<<"\n";
-    //alternatively return values using math functions
+    answer = sub(n1, n2);
     cout<<n1<<"-"<<n2<<" = "<<sub(n1,n2)<<"\n";
+    answer = mult(n1, n2);
     cout<<n1<<"*"<<n2<<" = "<<mult(n1,n2)<<"\n";
+    answer = div(n1, n2);
     cout<<n1<<"/"<<n2<<" = "<<div(n1,n2)<<"\n";
     return 0;
 }
