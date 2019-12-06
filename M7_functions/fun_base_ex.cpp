@@ -20,7 +20,7 @@ int main()
 
 void printMessage()
 {
-    std::cout<<"Example, basic function with no parameters or return values.\n";
+    std::cout<<"Example, basic function with no parameters or return values."endl;
 }
 // Output
 /*
