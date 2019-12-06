@@ -1,0 +1,9 @@
+What is the first coefficient?3
+What is the exponent of the first term?2
+What is the second coefficient?4
+What is the exponent of the second term?1
+What is the constant?32
+The polynomial we are solving is:
+	3*x^2 + 4*x^1+ 32
+What is the value of x?4
+y = 3*4^2 + 4*4^1+ 32 = 96
