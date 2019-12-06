@@ -30,13 +30,13 @@
 
 int main() //
 {
-    int m1 = 4;
-    int m2 = 5;
+    int n1 = 3;
+    int n2 = 8;
     int product;
 
-    product = m1 * m2;
+    product = n1 * n2;
 
-    printProduct(m1, m2, product);
+    printProduct(n1, n2, product);
     return 0;
 }
   
