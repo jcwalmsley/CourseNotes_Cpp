@@ -17,8 +17,9 @@
                         the program will execute. */
 */
 /*
-    The example below is a non executing program referencing a header file containing
-    the printProduct() function declaration and printProduct() function definition.
+    The example below is a non executing program referencing a hypothetical header
+    file containing the printProduct() function declaration and printProduct()
+    function definition.
 
     This is what the main.cpp program would look like if it had an existing main.hpp
     file in the same directory that included the function declaration and definition
