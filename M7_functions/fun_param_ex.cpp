@@ -1,42 +1,36 @@
-/*I have called a function named printProduct in the following program.
+/*
+    Given a function printProduct().
 
-The function printProgram accepts m1, m2, product as inputs.
+    Write the function declaration and definition.
 
-It prints the message:
+    The function has two parameters; n1 & n2.
 
-"m1 * m2 = product"
-using the variable values.
+    It prints the message:
+    "n1 * n2 = product"
 
-Write the declaration and definition of the function.
-
-The output should look something like this:
-
-4 * 5 = 20
+    And returns:
+    3 * 8 = 24
 */
-/*GOAL: Practice writing functions
-
-/*Write a function called printProduct that prints the results of the multiplication
-**of two integers.
-*/
+//
 #include <iostream>
 
-int printProduct(int m1, int m2, int product);
+int printProduct(int n1, int n2, int product);
 
 int main()
 {
-    int m1 = 4;
-    int m2 = 5;
+    int n1 = 3;
+    int n2 = 8;
     int product;
 
-    product = m1 * m2;
+    product = n1 * n2;
 
-    printProduct(m1, m2, product);
+    printProduct(n1, n2, product);
 
     return 0;
 }
 
-int printProduct(int m1, int m2, int product)
+int printProduct(int n1, int n2, int product)
 {
-    std::cout<<m1<< " * " <<m2<< " = " <<product<<"\n";
+    std::cout<<n1<< " * " <<n2<< " = " <<product<<"\n";
 }
   
