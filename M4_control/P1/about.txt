@@ -1,0 +1,36 @@
+Practice using:
+
+if, statements:
+
+if(boolean expression)
+{
+    //statements to execute if above expression is true
+}
+
+if, else statements:
+
+if(must be a boolean expression)
+{
+    //statements to execute "if" expression is true
+}
+else
+{
+    //statements to execute "if" expression is false
+}
+
+and if, else if, else statements:
+
+if(boolean expression)
+{
+    //statements to execute "if" the boolean expression is true
+}
+else if (boolean expression #2)
+{
+    //statements to execute if the 'else if' boolean expression  #2 is true
+}
+
+else
+{
+    //statements to execute if the boolean expressions
+    //'if' and 'else if'  are false
+}

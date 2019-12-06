@@ -1,0 +1,12 @@
+Guess a number between 0 and 100: 4
+Your guess is too low
+Guess a number between 0 and 100: 33
+Your guess is too low
+Guess a number between 0 and 100: 66
+Your guess is too high
+Guess a number between 0 and 100: 99
+Your guess is too high
+Guess a number between 0 and 100: 23
+Your guess is too low
+Guess a number between 0 and 100: 55
+You guessed the target!
