@@ -20,7 +20,7 @@ int calculateSum(int n1, int n2)
      return sum;
 }
 
-// Alternativelt see example 2 below:
+// Alternatively see example 2 below:
 
 int calculateSum(int n1, int n2)
 {
