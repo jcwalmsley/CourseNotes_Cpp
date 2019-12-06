@@ -1,3 +1,0 @@
-Would you like an animal with fur(f), feathers(t), or scales(s)?You want an animal with s
-Would you like an animal that lives in water(w), land(l), or both(b)?You want an animal that live on: w
-Get a fish
