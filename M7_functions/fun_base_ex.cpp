@@ -1,12 +1,7 @@
 /*
-    "Now, it's your turn to try. Write a program that uses a function called, "printMessage".
-
-    The function should print the message, "Functions". Print this message with the same capitalization and punctuation, the grader will be checking for them.""
-*/
-
-/*
-    "Goal: write a function called printMessage()
-    **that prints: Functions"
+    Practice writing a program using the format of a basic C++
+    function without any parameters or return values and that only
+    prints string output to the console.
 */
 
 #include<iostream>
@@ -22,6 +17,7 @@ int main()
 
 void printMessage()
 {
-    std::cout<<"Functions";
+    std::cout<<"Example of a basic function with no parameters, return values. Just a simple message output to the
+    console.\n";
 }
   
