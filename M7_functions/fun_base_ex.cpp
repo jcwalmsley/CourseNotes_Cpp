@@ -17,7 +17,7 @@ int main()
 
 void printMessage()
 {
-    std::cout<<"This is a basic function with no parameters or return values.";endl;
+    std::cout<<"This is a basic function with no parameters or return values.";
 }
 
 
