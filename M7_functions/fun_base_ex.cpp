@@ -5,6 +5,9 @@
 */
 
 #include<iostream>
+#include<string>
+#include<sstream>
+
 
 void printMessage();
 
