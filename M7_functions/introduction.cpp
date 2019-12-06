@@ -21,9 +21,9 @@ retVariableType  functionName(parameter1, parameter2, ...,parameterN)
      statement(s);
 }
 //
-//  For example:
 /*
-    The followoign function accepts no parameters and returns no value.
+    For example:
+    The following function accepts no parameters and returns no value.
     When it is called in a program, it will execute the statement
 */
 //
