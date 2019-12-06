@@ -17,10 +17,9 @@ int main()
 
 void printMessage()
 {
-    std::cout<<"This is a basic function with no parameters or return values."std::endl;
+    std::cout<<"This is a basic function with no parameters or return values.";std::endl;
 }
 
-/*
-    Output:
-    Example, basic function with no parameters or return values.
-*/  
+
+//    Output:
+//    This is a basic function with no parameters or return values.
