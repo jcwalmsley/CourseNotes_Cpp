@@ -20,9 +20,10 @@ int main()
 
 void printMessage()
 {
-    std::cout<<"Example, basic function with no parameters or return values."endl;
+    std::cout<<"Example, basic function with no parameters or return values."std::endl;
 }
-// Output
+
 /*
-Example, basic function with no parameters or return values.
+    Output:
+    Example, basic function with no parameters or return values.
 */  
