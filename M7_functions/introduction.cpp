@@ -8,7 +8,7 @@
 
     A function definition describes what the function will do when called.
 
-    C++ functions are able to, but not required to include:
+    C++ functions are able to, but not required to:
         accept parameters
         return values
         modify parameters 'when given the method of how to'
