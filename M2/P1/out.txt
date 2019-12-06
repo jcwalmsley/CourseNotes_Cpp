@@ -1,6 +1,0 @@
-Enter a number: 123
-Enter a number: 2
-Enter a number: 34
-Maximum number = 123
-Minimum number = 2
-Average = 53
