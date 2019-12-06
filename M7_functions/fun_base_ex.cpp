@@ -5,11 +5,6 @@
 */
 
 #include<iostream>
-#include<string>
-#include<sstream>
-#include<stdio.h>
-
-using namespace std;
 
 void printMessage();
 
@@ -22,7 +17,7 @@ int main()
 
 void printMessage()
 {
-    cout<<"Example, basic function with no parameters or return values."endl;
+    cout<<"This is a basic function with no parameters or return values."endl;
 }
 
 /*
