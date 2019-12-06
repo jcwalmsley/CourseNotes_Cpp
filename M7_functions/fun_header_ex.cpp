@@ -1,26 +1,29 @@
 /*
-    It is quite common to put functions into a header file. It makes your main program look cleaner. On this programming quiz, move the function declaration and function definition to the header file called main.cpp.
+    Putting functions and function declarations in a header file often
+    makes sense because; the main function looks better organized, and
+    is easier to understand by giving the overall code a cleaner appearance.
 
-    main.cpp
-    main.hpp
+    Header files will have a .h or .hpp extension in most cases.
+
+    main.cpp // main program file
+    main.hpp // header file to the main program file
+
+    When using a .h or .hpp header file include the following statement
+    in the main.cpp file:
+
+    #include "main.hpp"
 */
-//
 /*
-    Goal: Practice putting functions in a header file.
-    **Move the function declaration and definition to the header file.
-    **Don't forget to include the header file (main.hpp) in the main program.
+    The example below is a non executing program referencing a header file containing
+    the printProduct() function declaration and printProduct() function definition.
+    This is what the main.cpp program would look like if it had an existing main.hpp
+    file in the same directory that included the function declaration and definition
+    for the printProduct() function.
+
 */
-//
-/*
-    GOAL: Practice writing functions
-/*
-    Write a function called printProduct that prints the results of the multiplication
-    **of two integers.
-*/
-//
 #include "main.hpp"
 
-int main()
+int main() //
 {
     int m1 = 4;
     int m2 = 5;
