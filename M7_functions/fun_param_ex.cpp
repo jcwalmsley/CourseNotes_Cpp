@@ -31,5 +31,5 @@ int main()
 
 int printProduct(int n1, int n2, int product)
 {
-    std::cout<<n1<< " * " <<n2<< " = " <<product;
+    std::cout<<n1<< " * " <<n2<< " = " <<product<<"\n";
 }
