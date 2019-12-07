@@ -1,7 +1,7 @@
 /*
     The point of the last exercise was to show that; in C++ changes made to the value
-    of a variable within a function will not effect the variable's value in the main
-    program.
+    of a variable within a function will not effect the variable's value in the
+    program's main function.
 
     To work around this either:
         return the altered variable, or
