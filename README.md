@@ -7,4 +7,4 @@
 3. Improve overall programming skills and knowledge
 4. Have fun creating
 5. Prepare for additional courses in programming like:  
-    ROS robot operating software use and development
+        ROS robot operating software use and development
