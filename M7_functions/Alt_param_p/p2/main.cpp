@@ -7,7 +7,7 @@
         return the altered variable, or
         pass the variable as a reference
 
-    For this case we can choose to
+    For this case:
     return 'a';
 */
 
