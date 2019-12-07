@@ -1,10 +1,10 @@
-/*
-    For this program, write two functions:
+//  Given the 2 function declarations below:
 
-    void printEquation(int n1, int n2, int sum, char operation);
-    int sum(int n1, int n2);
-*/
+void printEquation(int n1, int n2, int sum, char operation);
+//&
+int sum(int n1, int n2);
 //
+//  and the following 2 function definitions
 void printEquation(int n1, int n2, int sum, char operation)
 {
      print the equation 'n1 operation  n2 = result'
@@ -14,17 +14,13 @@ int sum(int n1, int n2)
 {
      add two integers and return the sum
 }
-//
-/*
-    Put the declarations and definitions of the functions in the header
-    file. Don't forget to add the include files to the main.hpp file.
+/*  create a main.hpp file and move the 2 function declarations
+    and definitions into this new main.hpp file.
+
+    Insert; #include "main.hpp", in main.cpp as shown below.
 
     main.cpp
     main.hpp
-*/
-//
-/*
-    Goal: practice writing functions with parameters and return values.
 */
 //
 #include "main.hpp"
