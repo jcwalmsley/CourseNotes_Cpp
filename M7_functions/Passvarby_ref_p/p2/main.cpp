@@ -45,13 +45,11 @@ int main()
 int main()
 {
     char operation = '/';
-    float input1 = 9.8;
-    float input2 = 2.3;
+    float input1 = 4.1;
+    float input2 = 7.2;
     float result;
 
     calculate(input1, input2, operation, result);
     printEquation(input1, input2, operation, result);
     return 0;
 }
-
-  
