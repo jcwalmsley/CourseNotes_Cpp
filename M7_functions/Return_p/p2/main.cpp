@@ -45,8 +45,7 @@ int main()
     int n2 = 26;
     int total = sum(n1, n2);
 
-    printEquation(n1, n2, total,'+');
+    printEquation(n1, n2, total, '+');
 
     return 0;
 }
-  

@@ -13,11 +13,10 @@ int sum(int n1, int n2);
 // function definition 1
 void printEquation(int n1, int n2, int sum, char operation)
 {
-     print the equation 'n1 operation  n2 = result'
+    std::cout<<n1<<" "<<operation<<" "<<n2<<" = " <<sum;
 }
-
 // function definition 2
 int sum(int n1, int n2)
 {
-     add two integers and return the sum
+    return n1 + n2;
 }
