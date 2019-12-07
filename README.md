@@ -1,4 +1,4 @@
-#  Course notes for: C++ for programmers course
+#  Course notes: C++ for programmers course
 
 ## Purpose of producing these notes:
 
