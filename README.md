@@ -2,8 +2,11 @@
 
 ## Purpose of producing these notes:
 
-1. Practice "Git • GitHub" version control system on a course structure
-2. Improve C++ knowledge and skills
-3. Improve overall programming skills and knowledge
-4. Prepare for additional courses in programming like ROS use and development
-5. Have fun creating a project using C++ and GitHub
+1. Improve "Git • GitHub" version control system knowledge and skills on a course structure
+2. Improve overall C++ knowledge and skills
+3. Improve overall programming skills and knowledge with files and directories
+4. Improve overall knowledge and skill using BASH / terminal command line interface
+5. Improve overall knowledge and skill using the Atom text editor
+5. Prepare for courses in ROS (robot operating system) software use and development
+6. Practice developing a educational course structure
+7. Have fun creating a personal project using C++ and GitHub
