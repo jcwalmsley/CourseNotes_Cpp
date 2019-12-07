@@ -6,4 +6,4 @@
 2. Improve C++ knowledge and skills
 3. Improve overall programming skills and knowledge
 4. Prepare for additional courses in programming like ROS use and development
-5. Have fun creating a project using code and GitHub
+5. Have fun creating a project using C++ and GitHub
