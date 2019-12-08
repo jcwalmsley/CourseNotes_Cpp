@@ -1,3 +1,0 @@
-Before the function call a = 34
-In the function call a = 35
-After the function call a = 35
