@@ -1,1 +1,0 @@
-A basic function requires no parameters or return values but can prints a string to console.
