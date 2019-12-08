@@ -9,4 +9,4 @@
 5. Improve overall knowledge and skill using the Atom text editor
 5. Prepare for courses in ROS (robot operating system) software use and development
 6. Practice developing a repository for an educational course structure
-7. Have fun creating a personal project using C++ and GitHub
+7. Have fun creating a personal project using C++, GitHub, BASH & the Atom text editor
