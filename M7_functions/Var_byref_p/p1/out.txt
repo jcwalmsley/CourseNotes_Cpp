@@ -1,3 +1,0 @@
-Prior to function call a = 31
-During function call a = 32
-Following function call a = 32
