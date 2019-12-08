@@ -1,7 +1,7 @@
 /*
     Wite a program with a function that; searches an array for
     a given value, returns the index of the value if in the array
-    otherwise return -1.
+    otherwise return -8.
 */
 
 #include<iostream>
@@ -19,7 +19,7 @@ int main()
 
 int search(int array[], int size, int searchKey)
 {
-    int found = -1;
+    int found = -8;
     for(int i=0; i<size; i++)
     {
         if(array[i] == searchKey)
