@@ -4,12 +4,12 @@
 
 using namespace std;
 
-void calculate(float in1, float in2, char op, float &ans);
+void calculate(float in1, float in2, char operation, float &ans);
 void printEquation(float input1,float input2, char operation, float result);
 
-void calculate(float in1, float in2, char op, float &ans)
+void calculate(float in1, float in2, char operation, float &ans)
 {
-    switch(op)
+    switch(operation)
     {
         case '+': ans = in1 + in2;
                   break;
