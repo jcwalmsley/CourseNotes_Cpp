@@ -1,0 +1,23 @@
+Customer Name: 
+Customer Phone Number: 
+Customer Address: 
+What room are we remodeling?: 
+What job needs to be done?
+0: Wallpaper
+1: Paint
+2: Carpet
+3: Tile
+4: Wood Floor
+What is the room width? 
+What is the room depth? 
+
+
+Preparing order for:
+
+ 
+	 
+	 
+	Remodeling the Living room with tile 
+		Carpet Estimate: 0
+		Tile Estimate: 0
+		Wood Estimate: 0
