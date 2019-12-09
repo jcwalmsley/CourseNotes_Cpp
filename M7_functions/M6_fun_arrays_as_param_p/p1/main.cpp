@@ -30,7 +30,7 @@ int main()
     int arrayName[size] = {11,22,55,44,66,77};
         /*
             When passing arrays by pointers or by reference
-            therefore we need to also pass the array size. 
+            we need to also pass the array size. 
         */
     arrayAsPointer(arrayName, size);
     arraySized(arrayName, size);
