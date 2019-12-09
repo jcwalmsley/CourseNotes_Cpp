@@ -29,9 +29,9 @@ int main()
     const int size = 6;
     int arrayName[size] = {11,22,55,44,66,77};
         /*
-            When passing pointers or references to arrays
-            we often don't know the array's size therefore,
-            pass size also.
+            When passing arrays by reference to functions,
+            the array's size isn't always known therefore,
+            pass the array size also.
         */
     arrayAsPointer(arrayName, size);
     arraySized(arrayName, size);
@@ -43,22 +43,22 @@ void arrayAsPointer(int *arrayName, int size)
 {
     std::cout<<std::setw(5);
     for(int i=0; i<size; i++)
-        std::cout<<arrayName[i]<<" ";
+        std::cout<<*arrayName[i]<<" ";
     std::cout<<"\n";
 }
 
-void arraySized(int arrayName[6], int size)
+void arraySized(int arraySized[6], int size)
 {
     std::cout<<std::setw(5);
     for(int i=0; i<size; i++)
-        std::cout<<arrayName[i]<<" ";
+        std::cout<<arraySized[i]<<" ";
     std::cout<<"\n";
 }
 
-void arrayUnSized(int arrayName[], int size)
+void arrayUnSized(int arrayUnSized[], int size)
 {
     std::cout<<std::setw(5);
     for(int i=0; i<size; i++)
-        std::cout<<arrayName[i]<<" ";
+        std::cout<<arrayUnsized[i]<<" ";
     std::cout<<"\n";
 }
