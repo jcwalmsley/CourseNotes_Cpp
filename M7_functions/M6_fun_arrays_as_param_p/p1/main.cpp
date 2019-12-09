@@ -3,9 +3,9 @@
     arrays can be passed by reference to a function.
 
     3 methods of passing arrays to functions:
-    void functionName(variableType *arrayName)
-    void functionName(variableType arrayName[length of array])
-    void functionName(variableType arrayName[])
+    void functionName(variableType *arrayName) //as a reference
+    void functionName(variableType arrayName[length of array]) //as a sized array
+    void functionName(variableType arrayName[]) //as an unsized array
 */
 //
 /*
