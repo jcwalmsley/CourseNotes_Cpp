@@ -43,22 +43,22 @@ void arrayAsPointer(int *arrayName, int size)
 {
     std::cout<<std::setw(5);
     for(int i=0; i<size; i++)
-        std::cout<<*arrayName[i]<<" ";
+        std::cout<<arrayName[i]<<" ";
     std::cout<<"\n";
 }
 
-void arraySized(int arraySized[6], int size)
+void arraySized(int arrayName[6], int size)
 {
     std::cout<<std::setw(5);
     for(int i=0; i<size; i++)
-        std::cout<<arraySized[i]<<" ";
+        std::cout<<arrayName[i]<<" ";
     std::cout<<"\n";
 }
 
-void arrayUnSized(int arrayUnSized[], int size)
+void arrayUnSized(int arrayName[], int size)
 {
     std::cout<<std::setw(5);
     for(int i=0; i<size; i++)
-        std::cout<<arrayUnsized[i]<<" ";
+        std::cout<<arrayName[i]<<" ";
     std::cout<<"\n";
 }
