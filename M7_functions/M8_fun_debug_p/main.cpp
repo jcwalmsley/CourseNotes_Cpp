@@ -15,15 +15,6 @@
 
 int main()
 {
-    /*
-    //Cost of materials for the remodel
-    const float PAINTCOST = .50; //per square foot
-    const float WALLPAPERCOST = 2.00; //per square foot
-    const float CARPETCOST = 4.00; //per square foot
-    const float TILECOST = 5.50; //per square foot
-    const float WOODCOST = 6.00; //per square foot
-    */
-
     //user information
     string userName = " ";
     string phoneNumber = " ";
@@ -45,7 +36,7 @@ int main()
 
     //the possible task list
     enum task {paint, wallpaper, carpet, tile, woodFloor};
-
+    
     //get user information
     getUserInformation(userName,phoneNumber,userAddress);
     remodelRoom = getRoomChoice();
@@ -60,7 +51,7 @@ int main()
 
     //If a wall treatment is to be done, get the wall surface area
     //assume all four walls of the room are to be redone
-    if(task == paint || task == wallpaper)
+    if(task == 1 || task == 0)
     {
         //calculate and print the estimates
         wallSurfaceArea = calcWallSurfaceArea(roomWidth, roomDepth, roomHeight);
@@ -70,7 +61,7 @@ int main()
     }
 
     //if a floor is to be done, get the square footage of the room
-    if(task == carpet || task == tile || task == woodFloor)
+    if(task == 2 || task == 3 || task == 4)
     {
         //calculate and print the estimates
         floorArea = calcFloorArea(roomWidth, roomDepth);
