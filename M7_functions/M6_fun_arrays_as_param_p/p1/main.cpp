@@ -9,7 +9,7 @@
 */
 //
 /*
-    Examples of the 3 ways to pass an array to a funtion by reference.
+    Examples, 3 methods of passing arrays to functions.
 */
 
 #include<iostream>
