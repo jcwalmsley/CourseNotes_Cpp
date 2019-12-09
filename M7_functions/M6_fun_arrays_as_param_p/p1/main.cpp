@@ -29,9 +29,8 @@ int main()
     const int size = 6;
     int arrayName[size] = {11,22,55,44,66,77};
         /*
-            When passing arrays by reference to functions,
-            the array's size isn't always known therefore,
-            pass the array size also.
+            When passing arrays by pointers or by reference
+            therefore we need to also pass the array size. 
         */
     arrayAsPointer(arrayName, size);
     arraySized(arrayName, size);
@@ -46,7 +45,6 @@ void arrayAsPointer(int *arrayName, int size)
         std::cout<<arrayName[i]<<" ";
     std::cout<<"\n";
 }
-
 void arraySized(int arrayName[6], int size)
 {
     std::cout<<std::setw(5);
