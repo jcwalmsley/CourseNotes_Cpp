@@ -36,7 +36,7 @@ class Student
 
     void Student::print()
     {
-        cout<<name" "<<id<<" "<<gradDate;
+        cout<<name<<" "<<id<<" "<<gradDate;
     }
 
     string Student::getName()
