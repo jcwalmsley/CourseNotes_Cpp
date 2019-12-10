@@ -1,5 +1,5 @@
 /*
-    It is conventional to put classes in a header file.
+    "It is conventional to put classes in a header file.
 
     For this example we are going to put them in the main file
     so we can see both the main program and the class at the same time.
@@ -10,7 +10,7 @@
     Notice we need to use the "dot operator" to access the public members.
 
     For example, to get the value of the grad date in the student class
-    we need to type:
+    we need to type:"
 */
 studentVariableName.getGradDate();
 /*
@@ -19,7 +19,7 @@ studentVariableName.getGradDate();
 
     We will discuss that operator in the Binary Search Trees program.
 
-    Practice using a class
+    Next practice using a class:
 */
 //
 #include<iostream>
