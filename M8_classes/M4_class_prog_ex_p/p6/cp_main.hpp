@@ -15,9 +15,7 @@
     main.hpp
 */
 //-----------------
-A sample main.hpp program
-//
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class Cat
@@ -25,6 +23,7 @@ class Cat
     string name;
     string breed;
     int age;
+
 public:
     void setName(string nameIn);
     void setBreed(string breedIn);
@@ -39,12 +38,60 @@ void Cat::setName(string nameIn)
 {
     name = nameIn;
 }
-
 void Cat::setBreed(string breedIn)
 {
     breed = breedIn;
 }
+void Cat::setAge(int ageIn)
+{
+    age = ageIn;
+}
+string Cat::getName()
+{
+    return name;
+}
+string Cat::getBreed()
+{
+    return breed;
+}
+in Cat::getAge()
+{
+    return age;
+}
+void Cat::printInfo()
+{
+    cout<<name<<" "<<breed<<" "<<age;
+}
 
+//-----------------
+/*
+A sample main.hpp program
+
+#include<iostream>
+using namespace std;
+
+class Cat
+{
+        string name;
+        string breed;
+        int age;
+    public:
+        void setName(string nameIn);
+        void setBreed(string breedIn);
+        void setAge(int ageIn);
+        string getName();
+        string getBreed();
+        int getAge();
+        void printInfo();
+    };
+void Cat::setName(string nameIn)
+{
+    name = nameIn;
+}
+void Cat::setBreed(string breedIn)
+{
+    breed = breedIn;
+}
 void Cat::setAge(int ageIn)
 {
     age = ageIn;
@@ -65,3 +112,4 @@ void Cat::printInfo()
 {
     cout<<name<<" "<<breed<<" "<<age;
 }
+*/
