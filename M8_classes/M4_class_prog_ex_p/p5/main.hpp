@@ -1,3 +1,16 @@
+/*
+    Create a class.
+
+    Create a dog class; completing function definitions provided:
+        main.cpp
+        main.hpp
+    //
+    create 2 instances; dog1 & dog2
+    assign name "Rusty"  to dog1
+    assign name "Silver" to dog2
+    assign license #8765 to dog1
+    assign license #2851 to dog2
+*/
 //
 #include<iostream>
 
@@ -5,39 +18,41 @@ using namespace std;
 
 class Dog
 {
-    string name;
-    int licenseNumber;
-public:
-    void setName(string nameIn);
-    void setLicenseNumber(int licenseNumberIn);
-    string getName();
-    int getLicenseNumber();
-    void printInfo();
+        string name;
+        int licenseNumber;
+
+
+    public:
+        void setName(string nameIn);
+        void setLicenseNumber(int licenseNumberIn);
+        string getName();
+        int getLicenseNumber();
+        void printInfo();
 };
 
 void Dog::setName(string nameIn)
 {
-    //ToDo: finish this function
+    name = nameIn;
 }
 
-void Dog::setLicenseNumber(string licenseNumberIn)
+void Dog::setLicenseNumber(int licenseNumberIn)
 {
-    //ToDo: finish this function
+    licenseNumber = licenseNumberIn;
 }
 
-string getName()
+string Dog::getName()
 {
-    //ToDo: finish this function
+    return name;
 }
 
-string getLicenseNumber()
+int Dog::getLicenseNumber()
 {
-    //ToDo: finish this function
+    return licenseNumber;
 }
 
-void printInfo()
+void Dog::printInfo()
 {
-    //ToDo: finish this function
+    cout<<name<<" "<<licenseNumber;
 }
 //
 //-----------------
@@ -46,7 +61,7 @@ void printInfo()
     A sample solution for the header file.
 
 */
-/*The header file for main.cpp*/
+/*
 
 #include<iostream>
 
@@ -88,3 +103,4 @@ void Dog::printInfo()
 {
     cout<<name<<" "<<licenseNumber;
 }
+*/
