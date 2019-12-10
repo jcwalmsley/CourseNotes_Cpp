@@ -19,9 +19,9 @@ ClassName::ClassName();
 //The definition of a constructor is:
 ClassName::ClassName()
 {
-     dataMemberName1 = value;
-     dataMemberName2 = value;
-     ...
+    dataMemberName1 = value;
+    dataMemberName2 = value;
+    ...
 }
 //
 /*
@@ -40,7 +40,7 @@ class Cats
     string breed;
     int age;
 public:
-    Cats(); //declaring the constructor
+    Cats(); //declaring the Constructor
     void setName(string nameIn);
     void setBreed(string breedIn);
     void setAge(int ageIn);
@@ -52,10 +52,10 @@ public:
 //constructor definition
 Cats::Cats()
 {
-    cout<<"Assigning inital values in the constructor\n";
+    cout<<"Assigning initial values in the contructor\n";
     name = "Unknown";
-    breed = "Unknown"; //the initial value of the breed
-    age = 99; //the initial value of the age
+    breed = "Unknown"; //the initial value
+    age = 99; // initial value
 }
 void Cats::setName(string nameIn)
 {
@@ -85,13 +85,11 @@ void Cats::printInfo()
 {
     cout<<name<<" "<<breed<<" "<<age;
 }
-
-//+++++++
+//-----------------
 int main()
 {
-    Cats cat1;
+    Cats cat1:
     cout<<"Cat1 information: ";
     cat1.printInfo();
     return 0;
 }
-  
