@@ -1,26 +1,19 @@
 /*
-    Let's create some functions that can change the value of our data in our
-    class called Student:
+    Create a function that can modify values witin the student class created
+    before.
 
-    Traditionally, setDataName is the name we use to change data in a class.
+    Standard method for inputing data items is to use setDataName to change data inside a class.
 
-    In our case we have three data values:
-*/
-//
-name
-id
-gradDate
-//
-/*
-    So let's create a function to change the value of name:
-    This is just the usual C++ function.
-    It accepts an input string and returns nothing.
+    Include the these 3 items of data:
+        name
+        id
+        gradDate
 */
 //
 void setName(std::string nameIn)
 //
 /*
-    Now let's add a function to assess each of the data values in Student: An example of a class:
+    Add a function that can input each item type of data.
 */
 //
 class Student
@@ -36,20 +29,18 @@ class Student
 };
 //
 /*
-So, we can set our data but now we need to 'get' the data. Traditionally these are called get-functions.
+    In order to return the data we'll need another function that can access and return
+    it as output.
 
-They have the form getDataValue.
+    To retrieve data items from within a class we a get function with the form
+    getDataValue
 
-Get functions return the data, so get functions have the variable type as a return variable.
+    Get functions return data, therefore they have the variable type as a return value.
 
-For example: To access the data called name, the function declaration would be:
-*/
-//
-string getName();
-//
-/*
-If we do a get function for each data member, the student class should look like this:
-An example of a class:
+    In order to access name, the function declaration is:
+    string getName();
+
+    Student class with a function for each data member shown below:
 */
 //
 class Student
