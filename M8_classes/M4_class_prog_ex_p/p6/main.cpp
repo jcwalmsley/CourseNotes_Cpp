@@ -1,25 +1,22 @@
-In this program create a class called Cats. It has three private members: name, breed, age. Create all the set and get functions as well as a printInfo function: setName, setBreed, setAge, getName, getBreed, getAge, printInfo.
+/*
+    In this program create a class called Cats.
 
+    It has three private members: name, breed, age.
 
-main.cpp
-main.hpp
-/*Goal: practice creating and using classes.
-**Create a class called Cat.
-**Create the following members:
-**private members: name, breed, age
-**public members: setName, setBreed,setAge
-**getName, getBreed, getAge, printInfo*/
+    Create set and get and printInfo functions:
+        private members:
+            name, breed, age
+        public members:
+            setName, setBreed,setAge
+            getName, getBreed, getAge,
+            printInfo.
 
+    main.cpp
+    main.hpp
+*/
 //-----------------
-A sample main.cpp program
-
-/*Goal: practice creating and using classes.
-**Create a class called Cat.
-**Create the following members:
-**private members: name, breed, age
-**public members: setName, setBreed,setAge
-**getName, getBreed, getAge, printInfo*/
-
+// A sample main.cpp program
+//
 #include"main.hpp"
 
 int main()
