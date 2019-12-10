@@ -1,19 +1,19 @@
 /*
     Can you think of a problem that classes can solve?
-    This program will attempt to store student information.
-    Write this program such that it sorts the student data being stored by:
+    Write a program to store student information.
+    Write this program in such a wat that it can sort the student data being stored by:
         Student Name
         Student Number
         Student Graduation Date
 
         Information on 5 students is provided.
 
-        Sort students by name, then by number, then by graduation date.
+        The program meets expected criteria when it can:
+            Sort students by name, then by number, then by graduation date.
+            Print student information after each sort.
 
-        Print student information after each sort.
-
-    It is not expected that you can successfully write this program but give it
-    your best shot without using classes.
+    It is not expected for you to be able to successfully write this program without
+    using classesbut give it your best shot .
 
     The following information is provided:
         student1: Name: Joe Lime, ID#15, Grad. Date: 2019
