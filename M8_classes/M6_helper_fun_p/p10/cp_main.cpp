@@ -22,8 +22,8 @@
     main.cpp
     main.hpp
 */
-//
 #include "main.hpp"
+
 
 int main()
 {
@@ -41,7 +41,7 @@ int main()
 
     if(game1.fourInRow() == 1)
     {
-        cout<<"X got four in a row! \n\n";
+        cout<<"X got four in a row!\n\n";
     }
     else
     {
@@ -50,4 +50,3 @@ int main()
     game1.printInfo();
     return 0;
 }
-  
