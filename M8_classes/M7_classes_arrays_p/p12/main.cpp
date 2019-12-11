@@ -24,11 +24,14 @@ int main()
 {
     //ToDo: assign the dogs to an array called roster
     //Then assign names to the Dog.
+    const int SIZE=3;
+    Dog roster[SIZE];
 
+    roster[0].setName("Blue");
+    roster[0].setName("King");
+    roster[0].setName("Spot");
     //ToDo: declare and define this function
     //in the header file
     printRoster(roster,SIZE);
     return 0;
 }
-
-  

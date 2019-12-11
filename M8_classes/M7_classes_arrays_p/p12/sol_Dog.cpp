@@ -1,14 +1,14 @@
-//You may use this file as a header file for the Dog class.
-//Make sure to include it in main.hpp file
+using namespace std;
+//
 class Dog
 {
-    std::string name;
+    string name;
     int licenseNumber;
 public:
     Dog();
-    void setName(std::string nameIn);
+    void setName(string nameIn);
     void setLicenseNumber(int licenseNumberIn);
-    std::string getName();
+    string getName();
     int getLicenseNumber();
     void printInfo();
 };
@@ -17,7 +17,7 @@ Dog::Dog()
 {
     name="Unknown";
 }
-void Dog::setName(std::string nameIn)
+void Dog::setName(string nameIn)
 {
     name = nameIn;
 }
@@ -27,7 +27,7 @@ void Dog::setLicenseNumber(int licenseNumberIn)
     licenseNumber = licenseNumberIn;
 }
 
-std::string Dog::getName()
+string Dog::getName()
 {
     return name;
 }
@@ -39,5 +39,5 @@ int Dog::getLicenseNumber()
 
 void Dog::printInfo()
 {
-    std::cout<<name<<" "<<licenseNumber;
+    cout<<name<<" "<<licenseNumber;
 }
