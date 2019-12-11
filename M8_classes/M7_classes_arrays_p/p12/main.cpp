@@ -28,8 +28,8 @@ int main()
     Dog roster[SIZE];
 
     roster[0].setName("Blue");
-    roster[0].setName("King");
-    roster[0].setName("Spot");
+    roster[1].setName("King");
+    roster[2].setName("Spot");
     //ToDo: declare and define this function
     //in the header file
     printRoster(roster,SIZE);
