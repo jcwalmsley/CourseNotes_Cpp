@@ -1,14 +1,12 @@
 /*
-    A constructor is special function that is executed whenever we create
-    a new instance of the class.
+    Constructors are special functions executed when createing a new
+    instance of a class.
 
-    It is used to set initial values of data members of the class.
+    They're used to set initial values of data members of classes.
 
-    For example, in our Cats class we may want to have an initial value for
-    the age of a cat and it's breed.
-
-    If we set initial values, we do not need to require the program or user
-    set every value.
+    For example, in Cats class we want an initial value for age and
+    breed of cat to avoid requiring the program user setting the initial
+    values for each data member.
 
     Constructors do not return a value, including void.
 */
