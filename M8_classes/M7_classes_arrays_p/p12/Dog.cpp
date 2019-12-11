@@ -16,12 +16,12 @@ public:
 Dog::Dog()
 {
     name="Unknown";
+    licenseNumber=0000;
 }
 void Dog::setName(std::string nameIn)
 {
     name = nameIn;
 }
-
 void Dog::setLicenseNumber(int licenseNumberIn)
 {
     licenseNumber = licenseNumberIn;

@@ -30,6 +30,10 @@ int main()
     roster[0].setName("Blue");
     roster[1].setName("King");
     roster[2].setName("Spot");
+    roster[0].setLicenseNumber(657836);
+    roster[1].setLicenseNumber(432189);
+    roster[2].setLicenseNumber(839621);
+
     //ToDo: declare and define this function
     //in the header file
     printRoster(roster,SIZE);

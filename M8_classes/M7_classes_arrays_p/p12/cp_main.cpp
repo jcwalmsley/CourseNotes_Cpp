@@ -28,8 +28,13 @@ int main()
     Dog roster[SIZE];
 
     roster[0].setName("Blue");
-    roster[0].setName("King");
-    roster[0].setName("Spot");
+    roster[1].setName("King");
+    roster[2].setName("Spot");
+    roster[0].setLicenseNumber("657836");
+    roster[1].setlicenseNumber("432189");
+    roster[2].setLicenseNumber("839621");
+
+
 
     //ToDo: declare and define this function
     //in the header file
