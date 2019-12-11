@@ -16,13 +16,13 @@
     Syntax for destructors is similar to constructors:
 
 */
-//Declaring a destructor:
-~className()  //a destructor
+//destructor declaration:
+~ClassName() //declaration
 
-//Defining a destructor:
-classname::~classname() //destructor definition
+//destructor definition
+ClassName::~ClassName() //definition
 {
-    //tasks to be completed before going out of scope
+    //tasks
 }
 /*
     One of the more important tasks of a destructor is releasing memory
@@ -33,8 +33,8 @@ classname::~classname() //destructor definition
     main.cpp
     main.hpp
 */
-
 #include "main.hpp"
+using namespace std;
 
 int main()
 {
@@ -42,4 +42,14 @@ int main()
     cout<<d2.getLicense();
     return 0;
 }
-  
+
+//-----------------
+// #include "main.hpp"
+//
+// int main()
+// {
+//     Dog d2(666666);
+//     cout<<d2.getLicense();
+//     return 0;
+// }
+//

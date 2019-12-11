@@ -1,36 +1,37 @@
 /*
-    In addition to constructors, C++ also has destructors.
+    Besides constructors, C++ has destructors as well.
 
-    Destructors are special class functions that are called whenever an object goes out of scope.
-    Just like a constructor, a destructor is called automatically.
+    Destructors are class functions called whenever an object
+    goes out of scope.
+
+    Constructors and destructors are called automatically.
 
     Destructors cannot:
         - return a value
         - accept parameters
 
-    Destructors must have the same name as the class.
+    Destructors, identified with a tilda (~) symbol, use the same
+    name as the class.
 
-    The syntax for a destructor is similar to the constructor:
-
-    The destructor is identified with a tilda (~) symbol.
+    Syntax for destructors is similar to constructors:
 
 */
 //
 //Declaring a destructor:
-~className()  //this is a destructor
+~className()  //a destructor
 
 //Defining a destructor:
-classname::~classname()
+classname::~classname() //destructor definition
 {
      //tasks to be completed before going out of scope
 }
-One of the more important tasks of a destructor is releasing memory that was allocated by the class constructor and member functions.
+/*
+    Destructors release memory allocated by the class constructor
+    and member functions.
 
-We will discuss this in detail during the memory allocation lesson.
-
-main.cpp
-main.hpp
-
+    main.cpp
+    main.hpp
+*/
 
 #include<iostream>
 using namespace std;
