@@ -25,7 +25,7 @@ int main()
     {
         //print a board that has the postions numbered
         printTheBoard(gameBoard);
-        //ask player x where they want to put an 'x'
+        //ask player X where they want to put an 'x'
         printUserPrompt(nameX, 'x');
         //check that the input is a valid position and that
         //it has not already been taken
@@ -45,7 +45,7 @@ int main()
         //print a board that has the postions numbered
         printTheBoard(gameBoard);
         writeTheBoard(gameBoard);
-        //ask player x where they want to put an 'o'
+        //ask player O where they want to put an 'o'
         printUserPrompt(nameO, 'o');
         //check that the input is a valid position and that
         //it has not already been taken

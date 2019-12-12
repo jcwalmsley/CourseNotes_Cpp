@@ -23,7 +23,7 @@ public:
     Board()
     {//sets the board to blanks and the winner to 'z'
         //std::cout<<"Creating a board\n";
-        winner = 'z'; //not determined or tie
+        winner = 'z'; //winner not determined or tie
 
         for(int i = 0; i < 16; i++)
         {
@@ -63,7 +63,7 @@ public:
         int fourInRowO = 0;
 
         //Check rows for a winner
-        for(int rows = 0; rows<16; rows=rows+4)
+        for(int rows = 0; rows < 16; rows = rows+4)
         {
             for(int i = 0; i < 4; i++)
             {
