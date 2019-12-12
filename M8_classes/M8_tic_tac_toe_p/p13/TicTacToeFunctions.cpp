@@ -15,7 +15,7 @@
 */
 #include <fstream>
 
-void getUserNames(string &, string &)
+void getUserNames(string &, string &);
 void printBlankBoard(string);
 void printTheBoard(Board, string);
 void printUserPrompt(string,char);
@@ -33,8 +33,8 @@ void checkResponse(Board &boardIn, char input)
     do
     {
         position = getUserResponse();
-        userInput = board.setPosition(position, input);
-        if(userInput = -1)
+        userInput = boardIn.setPosition(position, input);
+        if(userInput == -1)
         {
             cout<<"That position is taken.";
         }
@@ -59,7 +59,7 @@ void printBlankBoard()
         {
             cout<<" ";
         }
-        if(i%4 = 3)
+        if(i%4 == 3)
         {
             std::cout<<"|\n";
         }
@@ -74,7 +74,7 @@ void printTheBoard(Board boardIn)
     for(int i = 0; i < 16; i++)
     {
         std::cout<<"|"<<boardIn.getPositions();
-        if(i%4 = 3)
+        if(i%4 == 3)
         {
             std::cout<<"|\n";
         }
