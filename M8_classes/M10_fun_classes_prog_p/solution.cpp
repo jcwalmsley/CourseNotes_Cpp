@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <stdio.h>
-#include "main.h"
+#include "main.hpp"
 
 const int CLASS_SIZE = 6;
 
