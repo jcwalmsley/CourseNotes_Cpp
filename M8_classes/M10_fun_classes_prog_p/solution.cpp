@@ -102,7 +102,7 @@ class Student
             std::cout<<"\t"<<grades[i]<<"\n";
         }
     }
-    
+
     int sortGrades()
     {
     //sort ascending
@@ -124,14 +124,14 @@ class Student
     {
         sortGrades();
         //std::cout<<"in class min"<<grades[0];
-        return grades[9];
+        return grades[0];
     }
 
     int getMax()
     {
         sortGrades();
         //std::cout<<"in class max"<<grades[9];
-        return grades[0];
+        return grades[9];
     }
 
     float getAverageGrade()

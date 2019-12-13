@@ -10,8 +10,8 @@ StudentID = 1000
 	79
 	65
 
-Min grade = 97
-Max grade = 58
+Min grade = 58
+Max grade = 97
 Grade Average = 81.8
 
 StudentID = 1001
@@ -26,8 +26,8 @@ StudentID = 1001
 	68
 	77
 
-Min grade = 94
-Max grade = 61
+Min grade = 61
+Max grade = 94
 Grade Average = 77.8
 
 StudentID = 1002
@@ -42,8 +42,8 @@ StudentID = 1002
 	44
 	70
 
-Min grade = 87
-Max grade = 44
+Min grade = 44
+Max grade = 87
 Grade Average = 64.6
 
 StudentID = 1003
@@ -58,8 +58,8 @@ StudentID = 1003
 	69
 	55
 
-Min grade = 87
-Max grade = 55
+Min grade = 55
+Max grade = 87
 Grade Average = 75.8
 
 StudentID = 1004
@@ -74,8 +74,8 @@ StudentID = 1004
 	68
 	87
 
-Min grade = 88
-Max grade = 62
+Min grade = 62
+Max grade = 88
 Grade Average = 74.8
 
 StudentID = 1005
@@ -90,8 +90,8 @@ StudentID = 1005
 	64
 	90
 
-Min grade = 97
-Max grade = 48
+Min grade = 48
+Max grade = 97
 Grade Average = 74
 
 ALLGRADES
