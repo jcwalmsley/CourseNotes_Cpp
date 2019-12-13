@@ -102,14 +102,13 @@ class Student
             std::cout<<"\t"<<grades[i]<<"\n";
         }
     }
-
-
+    
     int sortGrades()
     {
     //sort ascending
-    for(int i = 0; i < 10; i++)
-    {
-        for(int j = 0; j < 9 - i; j++)
+        for(int i = 0; i < 10; i++)
+        {
+            for(int j = 0; j < 9 - i; j++)
             {
                 if(grades[j] > grades[j + 1])
                 {
@@ -119,7 +118,7 @@ class Student
                     grades[j + 1]=temp;
                 }
             }
-    }
+        }
     }
     int getMin()
     {
@@ -158,7 +157,7 @@ class CourseEnrollment
 
     void addStudents(Student* studentIn)
     {
-        for(int i = 0;i<6;i++)
+        for(int i = 0; i < 6; i++)
         {
             students[i] = studentIn[i];
         }
@@ -168,9 +167,9 @@ class CourseEnrollment
     {
         //int grades[60];
         int k = 0;
-        for(int i = 0; i<6;i++)
+        for(int i = 0; i < 6; i++)
         {
-            for(int j = 0; j<10;j++)
+            for(int j = 0; j < 10; j++)
             {
                 grades[k] = students[i].getGrade(j);
                 k = k + 1;

@@ -26,6 +26,11 @@ int main()
         studentNumber++;
     }
 
+    //for(int i = 0; i < CLASS_SIZE; i++)
+    //{
+    //    std::cout<<"student #"<<i<<" has studentID #"<<studentsInClass[i].getStudentID()<<"\n\n";
+    //}
+
     //assign grades to all students
     for(int i = 0; i <CLASS_SIZE; i++)
     {
