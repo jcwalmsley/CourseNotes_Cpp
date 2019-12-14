@@ -18,4 +18,3 @@ int main()
     cout<<p1.getName();
     return 0;
 }
-  
