@@ -1,22 +1,23 @@
-In this quiz, you are to create a class that has four constructors:
+/*
+    In this quiz, you are to create a class that has four constructors:
 
-one that accepts no input parameters
-one that accepts a string name
-one that accepts an int license number
-one that accepts a string name and an int license number
-The default values are:
+    one that accepts no input parameters
+    one that accepts a string name
+    one that accepts an int license number
+    one that accepts a string name and an int license number
 
-name = NA
-license = 0
-main.cpp
-main.hpp
-/*Goal: create a class that has two
-*constructors; one that accepts
-*input parameters and one that does
-*not.
+    The default values are:
+        name = NA
+        license = 0
+
+    main.cpp
+    main.hpp
+
+        Goal: create a class that has two constructors; one that
+        accepts input parameters and one that does not.
 */
 
-#include "main.hpp"
+#include "main_ex.hpp"
 
 int main()
 {
