@@ -39,6 +39,7 @@ char Compare::findSmaller(char input1, char input2)
     return input2;
 }
 //=================
+
 int Compare::findSmaller(int input1, int input2, int input3)
 {
     if(input1 < input2)
