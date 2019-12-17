@@ -1,19 +1,5 @@
-/*
-    Now, it's your turn to use overloading.
+#include "main_ex.hpp"
 
-    Add two more variations on findSmaller;
-
-    create functions that accept three arguments for each of the variable types
-    create functions that accept an array for each variable type.
-    main.cpp
-    main.hpp
-
-    /*Goal: look at a program, and see if we can make it more versatile
-    **Modify the compare class in main.hpp to include the
-    **additional function members.*/
-*/
-
-#include "main.hpp"
 
 int main()
 {
