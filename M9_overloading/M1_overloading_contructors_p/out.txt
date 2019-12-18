@@ -1,4 +1,0 @@
-NA 0
-Kali 0
-NA 12345
-Sammy 65432
