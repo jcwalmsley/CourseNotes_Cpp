@@ -1,0 +1,4 @@
+
+sh1.Area() = 16
+sh2.Area() = 12
+Total = 28
