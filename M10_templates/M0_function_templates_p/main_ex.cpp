@@ -7,7 +7,7 @@
 
     Goal: Practice writing generic functions
 */
-#include "main.hpp"
+#include "main_ex.hpp"
 
 int main()
 {
@@ -16,4 +16,3 @@ int main()
     std::cout<<a <<" + "<<b<<" = "<< sumTwo(a,b);
     return 0;
 }
-  
