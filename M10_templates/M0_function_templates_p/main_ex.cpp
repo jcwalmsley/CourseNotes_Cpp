@@ -11,8 +11,8 @@
 
 int main()
 {
-    int a = 90;
-    int b = 1;
-    std::cout<<a <<" + "<<b<<" = "<< sumTwo(a,b);
+    float a = 90.6;
+    float b = 1.7;
+    std::cout<<a<<" + "<<b<<" = "<<sumTwo(a,b);
     return 0;
 }
