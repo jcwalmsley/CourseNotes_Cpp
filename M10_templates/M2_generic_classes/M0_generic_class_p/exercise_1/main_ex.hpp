@@ -37,6 +37,12 @@ void Multiplier<T>::setM2(T mIn)
 }
 
 template <class T>
+void Multiplier<T>::setProduct()
+{
+    product = m1 * m2;
+}
+
+template <class T>
 T Multiplier<T>::getM1()
 {
     return m1;
