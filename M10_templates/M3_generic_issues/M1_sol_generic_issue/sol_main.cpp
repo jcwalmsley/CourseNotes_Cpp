@@ -12,6 +12,7 @@
     Goal: fix the program by completing the constructor.
     It should assign a default value to each element in the array.
 */
+
 #include "main.hpp"
 
 int main()
@@ -44,5 +45,3 @@ int main()
 
     return 0;
 }
-
-  

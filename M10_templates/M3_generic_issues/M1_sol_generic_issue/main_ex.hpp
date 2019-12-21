@@ -1,3 +1,4 @@
+
 /*
     Use a constructor to allocate memory for the array. Set a default value to each element in the array.
 
@@ -36,13 +37,16 @@ StudentRecord<T>::StudentRecord(T defaultInput)
     //TODO: allocate memory for the array
     //by assigning a default value to each
     //array element.
+    for(int i=0; i<SIZE; ++i)
+        grades[i] = defaultInput;
+
 }
 
 
 template<class T>
 void StudentRecord<T>::setGrades(T* input)
 {
-    for(int i=0; i<SIZE;++i)
+    for(int i=0; i<SIZE; ++i)
     {
         grades[i] = input[i];
     }

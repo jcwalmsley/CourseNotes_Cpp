@@ -1,14 +1,3 @@
-/*
-    Use a constructor to allocate memory for the array. Set a default value to each element in the array.
-
-    Now the compiler can properly allocate memory for the array.
-
-    In a later lesson in the course will we learn about memory allocation and deallocation through the use of the commands "new" and "delete".
-
-    main.cpp
-    main.hpp
-    solution.cpp
-*/
 //header file for main.cpp
 
 #include<iostream>
@@ -33,9 +22,11 @@ class StudentRecord
 template<class T>
 StudentRecord<T>::StudentRecord(T defaultInput)
 {
-    //TODO: allocate memory for the array
-    //by assigning a default value to each
-    //array element.
+    //we use the default value to allocate the size of the memory
+    //the array will use
+    for(int i=0; i<SIZE; ++i)
+        grades[i] = defaultInput;
+
 }
 
 
