@@ -15,7 +15,7 @@
     Then we can use the same code for all employees.
     The question is .... does it work?
 */
-#include "main.hpp"
+#include "main_2.hpp"
 
 int main()
 {

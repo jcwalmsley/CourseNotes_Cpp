@@ -9,7 +9,7 @@
     We can change the code as shown below, but now we have to maintain two branches of the same code, one for each type of employee.
 */
 
-#include "main.hpp"
+#include "main_1.hpp"
 
 int main()
 {

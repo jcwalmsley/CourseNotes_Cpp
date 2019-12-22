@@ -17,7 +17,7 @@
     Goal: look an example of inheritance that highlights the need for polymorphism.
 */
 //
-#include "main.hpp"
+#include "main_0.hpp"
 
 int main()
 {
