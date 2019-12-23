@@ -14,6 +14,7 @@
 
     We can add as many elements as we wish using the push_back function.
     In this example we added four elements to the vector.
+    
         vectorInts.push_back(24);
         vectorInts.push_back(25);
         vectorInts.push_back(26);
