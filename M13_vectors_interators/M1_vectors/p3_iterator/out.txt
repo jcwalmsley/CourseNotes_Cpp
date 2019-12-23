@@ -1,6 +1,0 @@
-vFloat has 0 elements
-
-
-Adding 10 elements to the vector
-vFloat has 10 elements
-8.8 8.8 8.8 8.8 8.8 8.8 8.8 8.8 8.8 8.8 
