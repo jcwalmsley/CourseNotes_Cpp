@@ -1,4 +1,0 @@
-vFloat has 0 elements
-
-
- vFloat now has 6 elements
