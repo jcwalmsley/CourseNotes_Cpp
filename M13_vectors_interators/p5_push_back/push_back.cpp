@@ -1,4 +1,3 @@
-
 /*
     ::Assign will write over elements in the vector, which is what we want in some cases, but in others it is not desired.
 
@@ -8,13 +7,17 @@
 
     Note in the program:
 
-    We added an element by pushing it on to the back of the vector. In this case we put an element with value 24 on the end of the vector.
+    We added an element by pushing it on to the back of the vector.
+    In this case we put an element with value 24 on the end of the vector.
+
     vectorInts.push_back(24);
-    We can add as many elements as we wish using the push_back function. In this example we added four elements to the vector.
-    vectorInts.push_back(24);
-    vectorInts.push_back(25);
-    vectorInts.push_back(26);
-    vectorInts.push_back(27);
+
+    We can add as many elements as we wish using the push_back function.
+    In this example we added four elements to the vector.
+        vectorInts.push_back(24);
+        vectorInts.push_back(25);
+        vectorInts.push_back(26);
+        vectorInts.push_back(27);
 */
 //
 #include <iostream>
