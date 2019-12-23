@@ -1,0 +1,8 @@
+vectorInts has 0 elements
+Adding 23 to the vector
+23 
+
+Adding four elements to the vector
+vectorInts has 5 elements
+VectorInts has these elements:
+23 24 25 26 27 
