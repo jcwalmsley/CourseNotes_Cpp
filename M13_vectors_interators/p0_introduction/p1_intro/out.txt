@@ -1,0 +1,4 @@
+vectorInts has 0 elements
+
+
+vectorInts now has 6 elements
