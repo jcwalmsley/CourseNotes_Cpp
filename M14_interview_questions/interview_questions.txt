@@ -1,0 +1,34 @@
+Topics:
+Q1.     What do the letters in OOP signify?
+A1. OBJECT ORIENTED PROGRAMMING
+
+Q2. What is a class?
+A1. A user defined data type
+
+Q3. What is an object?
+A4. An instance of a user defined class
+
+Q4. What are the 5 types of inheritance in C++?
+A4. single inheritance
+    multiple inheritance
+    multilevel inheritance
+    hierarchical inheritance
+    hybrid inheritance
+
+Q5. What are the three access class specifiers in C++?
+A5. public: private: protected:
+
+Q6. What is encapsulation?
+A6. data hiding
+
+Q7. What is data abstraction?
+A7.
+
+Q8. What is inheritance?
+A8.
+
+Q9. What is an advantage of inline functions.
+A9.
+
+Q10. What makes a class an abstract class?
+A10.
