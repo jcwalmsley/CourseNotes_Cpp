@@ -22,13 +22,13 @@ Q6. What is encapsulation?
 A6. data hiding
 
 Q7. What is data abstraction?
-A7.
+A7. The purpose of abstraction is to hides and protect implementation from application users by separating the public interface from the hidden implementation of the code itself.
 
 Q8. What is inheritance?
-A8.
+A8. Inheritance is a technique of code reuse. It also provides possibility to extend existing classes by creating derived classes.
 
 Q9. What is an advantage of inline functions.
-A9.
+A9. Their variables only occupy memory during the execution of the function block where they appear.
 
 Q10. What makes a class an abstract class?
-A10.
+A10. A class is made abstract by declaring at least one of its functions as pure virtual function.
